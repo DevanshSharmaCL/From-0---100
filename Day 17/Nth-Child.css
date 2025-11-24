@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral
+}
+.BoxContainer{
+    position: absolute;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.box:nth-child(even){
+    background-color: red;
+}
+.box:nth-child(odd){
+    background-color:green;
+}

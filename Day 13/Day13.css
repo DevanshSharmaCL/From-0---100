@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "helvetica now display", sans-serif;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.Main-Div{
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    color: #FFF;
+}
+
+.Navbar{
+    padding: 30px 70px;
+}
+
+.Navbar a{
+    color: #FFF;
+    font-size: 20px;
+    padding: 83px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.Headline{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 150px;
+    font-weight: 200;
+}
+
+
+.Details {
+    width: 220px;
+    margin-left: 60px;
+}
+
+.Product h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.Product p{
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.Material h3{
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.Material p{
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.buttom-link{
+    margin-top: 50px;
+}
+
+.NC{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.SL{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 1230px
+}
+
+.main-img{
+    position: absolute;
+    height: 350px;
+}
+
+.img-1 img{
+    position: absolute;
+    height: 100vh;
+}
+.img-2 img{
+    position: absolute;
+    height: 100vh;
+}
+.img-3 img{
+    height: 100vh;
+}
+
