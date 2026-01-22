@@ -11,6 +11,9 @@ btn.addEventListener('click',function(){
     },50)
     setTimeout(()=>{
         clearInterval(bar)
+        btn.innerHTML="Downloaded"
+        btn.style.opacity= 0.5
+        btn.style.pointerEvents='none'
     },5000)
     console.log()
 })
