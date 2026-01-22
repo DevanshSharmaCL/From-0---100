@@ -22,9 +22,9 @@ button{
     padding: 10px 30px;
     font-size: 20px;
     color: violet;
+    z-index: 1;
     background-color:purple;
     border: none;
-    z-index: 1;
     border-radius: 10px;
 }
 
