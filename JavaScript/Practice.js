@@ -397,13 +397,26 @@
 
 //given a dynamic key let key = "age", how will u access the user[key]
 
-let key="age";
+// let key="age";
 
-let user={
+// let user={
+//     name:"devansh",
+//     age:20,
+//     city:"gurgaon",
+// }
+// console.log( user[key]);
+// user[key]=22
+// console.log(user);
+
+
+//from the object below print the latitude
+
+let user = {
     name:"devansh",
-    age:20,
-    city:"gurgaon",
-}
-console.log( user[key]);
-user[key]=22
-console.log(user);
+    address:{
+        street:"123 main st",
+        latitude: "40.7128 N",
+        longitude:"74.0060 W",
+    }
+};
+console.log(user.address.latitude);
