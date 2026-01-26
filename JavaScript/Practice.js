@@ -496,3 +496,4 @@ let count = arr.filter(function(val){
     return val>=8
 });
 console.log(count)
+console.log(count.length)
