@@ -266,6 +266,14 @@
 
 // sort this array alphabetically and then reverse the order
 
-let alphabet=["d","a","c","b","e"];
-alphabet.sort().reverse();
-console.log(alphabet);
+// let alphabet=["d","a","c","b","e"];
+// alphabet.sort().reverse();
+// console.log(alphabet);
+
+
+//use .map()to square the each number
+let arr =[1,2,3,4,5];
+let sqr = arr.map(function(val){
+    return val*val
+});
+console.log(sqr);
