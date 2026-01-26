@@ -259,6 +259,13 @@
 
 
 // extract the middle 3 number from the array 
-let arr =[1,2,3,4,5,6,7,8,9];
-let middle= arr.slice(3,6)
-console.log(middle);
+// let arr =[1,2,3,4,5,6,7,8,9];
+// let middle= arr.slice(3,6)
+// console.log(middle);
+
+
+// sort this array alphabetically and then reverse the order
+
+let alphabet=["d","a","c","b","e"];
+alphabet.sort().reverse();
+console.log(alphabet);
