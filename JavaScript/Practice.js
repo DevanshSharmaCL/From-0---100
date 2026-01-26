@@ -339,9 +339,20 @@
 //destructure this array to get first name and last name 
 //in this we just have to match the position of the array
 
-let fullName =["Cyber","Light"];
-let [firstName , lastName] = fullName;
+// let fullName =["Cyber","Light"];
+// let [firstName , lastName] = fullName;
 
-console.log(firstName);
-console.log(lastName);
+// console.log(firstName);
+// console.log(lastName);
 
+
+
+//merge two array using spread operator
+// spread operator is used to expand the array
+//...a this is expanding the array a
+
+let a = [1,2,3];
+let b = [4,5,6];
+
+let merge=[...a,...b];
+console.log(merge);
