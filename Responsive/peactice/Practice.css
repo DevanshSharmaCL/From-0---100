@@ -8,56 +8,15 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
 .parent{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    display: grid;
-    border: 2px solid white;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    padding: 10px;
-    grid-template-areas: "box1 box2 box3"
-                         "box1 box4 box5"
-                         "box6 box6 box5";
-}
-
-
-.box1{
-    grid-area: box1;
-    background-color: tomato;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-.box2{
-    grid-area: box2;
+    height: 200px;
+    width: 200px;
     background-color: red;
-    border: 2px solid white;
-    border-radius: 10px;
 }
-.box3{
-    grid-area: box3;
-    background-color: brown;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-.box4{
-    grid-area: box4;
-    background-color: burlywood;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-.box5{
-    grid-area: box5;
-    background-color:sienna;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-.box6{
-    grid-area: box6;
-    background-color:saddlebrown;
-    border: 2px solid white;
-    border-radius: 10px;
+
+
+@media (max-width:500px){
+    .parent{
+        background-color: blue;
+    }
 }
