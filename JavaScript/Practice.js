@@ -796,8 +796,23 @@
 
 
 //use reduce to to find total sallary of an array
-let sallary = [1000,2000,3000,4000,5000];
-let total = sallary.reduce(function(acc,val){
-    return acc+val;
+
+// let sallary = [1000,2000,3000,4000,5000];
+// let total = sallary.reduce(function(acc,val){
+//     return acc+val;
+// })
+// console.log(total);
+
+
+//create an array of names and use some and every to check that every name is longer than 3 char
+
+let names = ["dev","an","sh","kumar"];
+let everyName = names.every(function(val){
+    return val.length>3
 })
-console.log(total);
+console.log(everyName);
+
+let someName = names.some(function(val){
+    return val.length>3
+})
+console.log(someName);
