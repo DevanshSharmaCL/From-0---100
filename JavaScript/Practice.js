@@ -491,9 +491,32 @@
 
 //count how many number btw 1-15 are greater than 8 
 
-let arr =[1,5,8,9,12,15,7,6,10];
-let count = arr.filter(function(val){
-    return val>=8
-});
-console.log(count)
-console.log(count.length)
+// let arr =[1,5,8,9,12,15,7,6,10];
+// let count = arr.filter(function(val){
+//     return val>=8
+// });
+// console.log(count)
+// console.log(count.length)
+
+
+
+//allow only 3 attempts to enter the correct password, other wise lock the account
+
+let attempts = 0;
+let password ="Dev"
+
+while(attempts!=3){
+    let user=prompt("enter the password")
+    if(user===password){
+        console.log("Login successful");
+        break
+    }
+    else{
+        attempts++;
+        console.log("Incorrect password. Try again.");
+    }
+    if(attempts===3){
+        console.log("account locked")
+    }
+    console.log(`you tooked ${attempts} attempts`)
+}
