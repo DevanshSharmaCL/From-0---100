@@ -7,48 +7,112 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: MS Reference Sans serif;
 }
 
 main nav {
   width: 100%;
-  display: flex;
-  gap: 7.5rem;
-  align-items: center;
   height: 58px;
-}
-main nav img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100px;
-}
-main nav nav-left {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  /* LEFT SIDE */
+  /* RIGHT SIDE */
 }
-main nav nav-left nav-logo img {
-  height: 25px;
-  width: 90px;
-}
-main nav nav-left nav-left-dropdown {
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 19px;
-}
-main nav nav-right {
+main nav .nav-left {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
+  gap: 1rem;
 }
-main nav nav-right nav-right-icons {
+main nav .nav-left .nav-left-dropdown {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+main nav .nav-left .nav-logo img {
+  height: 96px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main nav .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  /* ICONS */
+  /* PROFILE IMAGE */
+}
+main nav .nav-right .nav-right-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: 1.5rem;
-  gap: 16px;
-  display: flex;
 }
-main nav nav-right nav-right-profile-container img {
-  height: 42px;
-  width: 42px;
+main nav .nav-right .nav-right-icons i {
+  cursor: pointer;
+  opacity: 0.85;
+}
+main nav .nav-right .nav-right-profile-container img {
+  height: 36px;
+  width: 36px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
+}
+main .hero-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+main .hero-container .hero-content-container {
+  max-width: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+main .hero-container .hero-content-container .search-bar {
+  width: 110%;
+  margin-left: -17px;
+  position: relative;
+}
+main .hero-container .hero-content-container .search-bar i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  opacity: 0.6;
+  pointer-events: none;
+}
+main .hero-container .hero-content-container .search-bar input {
+  width: 100%;
+  height: 42px;
+  border-radius: 2rem;
+  border: 1px solid white;
+  background: transparent;
+  padding-left: 44px;
+  padding-right: 16px;
+  color: white;
+  font-size: 0.95rem;
+  outline: none;
+}
+main .hero-container .hero-content-container .catorgory-container {
+  display: flex;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+main .hero-container .hero-content-container .catorgory-container .shots, main .hero-container .hero-content-container .catorgory-container .designers, main .hero-container .hero-content-container .catorgory-container .service {
+  border-radius: 2rem;
+  padding: 0.7rem;
+  border: 0.2rem solid white;
+  background-color: #2E2A38;
+}
+main .hero-container .hero-content-container .catorgory-container i {
+  font-size: 1.1rem;
+}
+main .hero-container .hero-content-container .head-container {
+  width: 100%;
 }/*# sourceMappingURL=Dribble.css.map */
