@@ -423,12 +423,24 @@
 
 // what will happen if coordinates is missing how will u prevent the error
 
-let user = {
-    name:"devansh",
-    address:{
-        street:"123 main st",
-        // latitude: "40.7128 N",
-        longitude:"74.0060 W",
-    }
+// let user = {
+//     name:"devansh",
+//     address:{
+//         street:"123 main st",
+//         // latitude: "40.7128 N",
+//         longitude:"74.0060 W",
+//     }
+// };
+// console.log(user?.address?.latitude)
+
+
+//destructre the the frist name as a variable 
+
+let user={
+    "Full-name":"dev"
+
 };
-console.log(user?.address?.latitude)
+
+let {"full-name":firstname}=user;
+
+console.log(firstname);
