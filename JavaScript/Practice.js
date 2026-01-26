@@ -243,3 +243,10 @@ console.log(fruits);
 
 //push add the element at the end of the array 
 //unshift push the element at the start of the array 
+
+
+//remove the items from this array using a methos
+
+let numbers =[1,2,3,4,5,6,7,8,9];
+numbers.pop()
+console.log(numbers);
