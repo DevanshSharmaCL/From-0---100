@@ -132,8 +132,21 @@
 
 // ask the user for a number and print wheather each number from 1 to that number is even or odd
 
-let number = 10
+// let number = 10
 
-for (let i = 1; i <= number; i++) {
-    console.log(i % 2 === 0 ? `${i} is even` : `${i} is odd`);
+// for (let i = 1; i <= number; i++) {
+//     console.log(i % 2 === 0 ? `${i} is even` : `${i} is odd`);
+// }
+
+
+// //Q1 - Stop at first multiple of 7 
+// write  a loop from 1 to 100 that 
+//   . print each number 
+//   .stops completely when it finds its first number that is divisble by 7 
+
+for ( let i = 1 ; 1<=101; i++){
+    console.log(i)
+    if(i%7===0){
+        break;
+    }
 }
