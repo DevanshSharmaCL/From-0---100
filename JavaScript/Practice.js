@@ -561,9 +561,26 @@
 
 // keep asking the user for the number untill they enter the even number 
 
-let user = +prompt("ernter the n");
+// let user = +prompt("ernter the n");
 
-while(user%2!=0){
-    user = +prompt("enter the n");
-    console.log(user);
+// while(user%2!=0){
+//     user = +prompt("enter the n");
+//     console.log(user);
+// }
+
+
+
+// give 2 numnber a and b print all the number between a and b 
+
+let start = prompt("enter the starting number");
+let end = prompt("enter the ending number");
+
+
+if(start>end){
+    console.log("number bada h , chota daal")
+}
+else{
+    for(let i=start;i<=end;i++){
+        console.log(i);
+    }
 }
