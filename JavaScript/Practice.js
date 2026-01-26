@@ -436,11 +436,45 @@
 
 //destructre the the frist name as a variable 
 
-let user={
-    "Full-name":"dev"
+// let user={
+//     "Full-name":"dev"
 
-};
+// };
 
-let {"full-name":firstname}=user;
+// let {"full-name":firstname}=user;
 
-console.log(firstname);
+// console.log(firstname);
+
+
+
+//use for-in to log all keys in this object
+// let user ={
+//     name:"devansh",
+//     age:20,
+//     city:"gurgaon",
+// }
+
+// for (let key in user){
+//     console.log(key);
+// }
+
+
+
+//ask user age and check if elegible for voting
+
+let age = prompt("Enter your age");
+if (age>=18){
+    console.log("You are elegible for voting");
+}
+else if(age.trim()=== ""){
+    console.log("Please enter a valid age");    
+}
+else if(isNaN(age)){
+    console.log("Please enter a valid age");
+}
+else if(age<0){
+    console.log("Please enter a valid age");
+}
+else{
+    console.log("You are not elegible for voting");
+}
