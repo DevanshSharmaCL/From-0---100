@@ -502,21 +502,37 @@
 
 //allow only 3 attempts to enter the correct password, other wise lock the account
 
-let attempts = 0;
-let password ="Dev"
+// let attempts = 0;
+// let password ="Dev"
 
-while(attempts!=3){
-    let user=prompt("enter the password")
-    if(user===password){
-        console.log("Login successful");
-        break
+// while(attempts!=3){
+//     let user=prompt("enter the password")
+//     if(user===password){
+//         console.log("Login successful");
+//         break
+//     }
+//     else{
+//         attempts++;
+//         console.log("Incorrect password. Try again.");
+//     }
+//     if(attempts===3){
+//         console.log("account locked")
+//     }
+//     console.log(`you tooked ${attempts} attempts`)
+// }
+
+
+
+//count yes untill stop is entered
+
+let word=prompt("enter anyword");
+let count=0;
+
+while(word!="stop"){
+    if(word==="yes"){
+        count++;
     }
-    else{
-        attempts++;
-        console.log("Incorrect password. Try again.");
-    }
-    if(attempts===3){
-        console.log("account locked")
-    }
-    console.log(`you tooked ${attempts} attempts`)
+    console.log(word);
+    word=prompt("enter anyword");
 }
+console.log(`this many times yes was entered = ${count}`);
