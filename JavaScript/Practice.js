@@ -296,8 +296,17 @@
 
 // use reduce() to get the sum of all the number 
 
-let arr =[1,2,3,4,5];
-let sum = arr.reduce(function(acc ,val){
-    return acc+val;
+// let arr =[1,2,3,4,5];
+// let sum = arr.reduce(function(acc ,val){
+//     return acc+val;
+// })
+// console.log(sum);
+
+
+//use .find() to get the first number less than 10 
+
+let arr =[12,15,8,20,5];
+let les = arr.find(function(val){
+    return val<10
 })
-console.log(sum);
+console.log(les);
