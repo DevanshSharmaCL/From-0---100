@@ -619,28 +619,30 @@
 
 //atm machine
 
-let amt = 1000;
-let user = prompt("Apko kya karna h (w for withdraw, d for deposit)");
-if (user === "w"){
-    console.log("U have choosed withraw")
-    let withdraw= +prompt("how much many u want to withdarw")
-    if (withdraw > amt){
-        console.log("gareeb h");
-    }
-    else{
-        console.log(`${amt-withdraw} is left in the bank`)
-    }
-}
-if(user === "d"){
-    console.log("U have Choosed Deposit")
-    let deposit = +prompt("how much many u want to depostit")
-    let newbalance = deposit + amt 
-    if(deposit < 0){
-        console.log("pls enter valid number")
-    } else{
+// let amt = 1000;
+// let user = prompt("Apko kya karna h (w for withdraw, d for deposit)");
+// if (user === "w"){
+//     console.log("U have choosed withraw")
+//     let withdraw= +prompt("how much many u want to withdarw")
+//     if (withdraw > amt){
+//         console.log("gareeb h");
+//     }
+//     else{
+//         console.log(`${amt-withdraw} is left in the bank`)
+//     }
+// }
+// if(user === "d"){
+//     console.log("U have Choosed Deposit")
+//     let deposit = +prompt("how much many u want to depostit")
+//     let newbalance = deposit + amt 
+//     if(deposit < 0){
+//         console.log("pls enter valid number")
+//     } else{
 
-        console.log(`${deposit} money has been added`)
-        console.log(`user new bank balance is ${newbalance}`)
-    }
-}
+//         console.log(`${deposit} money has been added`)
+//         console.log(`user new bank balance is ${newbalance}`)
+//     }
+// }
+
+
 
