@@ -229,6 +229,17 @@
 
 // replace banana with kiwi
 
+// let fruits =["apple","banana","grapes"];
+// fruits[1]="kiwi";
+// console.log(fruits);
+
+//what ths difference btw push and unshift 
+
 let fruits =["apple","banana","grapes"];
-fruits[1]="kiwi";
+fruits.push("hi")
 console.log(fruits);
+fruits.unshift("byw")
+console.log(fruits);
+
+//push add the element at the end of the array 
+//unshift push the element at the start of the array 
