@@ -713,6 +713,17 @@
 
 // use settimout of 2 sec
 
-setTimeout(function(){
-    console.log("times'up")
-},2000)
+// setTimeout(function(){
+//     console.log("times'up")
+// },2000)
+
+
+//write a high order function which call a function that takes another function twice 
+
+function runTwice(fn){
+fn()
+fn()
+}
+runTwice(function(){
+    console.log("hi")
+})
