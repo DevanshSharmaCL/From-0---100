@@ -305,8 +305,20 @@
 
 //use .find() to get the first number less than 10 
 
-let arr =[12,15,8,20,5];
-let les = arr.find(function(val){
-    return val<10
+// let arr =[12,15,8,20,5];
+// let les = arr.find(function(val){
+//     return val<10
+// })
+// console.log(les);
+
+
+
+// use .some to check if any student has scored bellow 35 ------> this return values in true and false
+
+let arr = [40,55,30,70,85];
+
+let check =arr.some(function(val){
+    return val<35
 })
-console.log(les);
+
+console.log(check);
