@@ -39,7 +39,7 @@
 
 
 
-//print all character of a name using for of
+// print all character of a name using for of
 
 // for (let char of "devansh"){
 //     console.log(char);
@@ -68,7 +68,7 @@
 
 
 
-//Guess number game – use while to ask until correct
+// Guess number game – use while to ask until correct
 
 // let secretNumber = 7;
 // let guess = Number(prompt("Guess the number"));
@@ -81,25 +81,25 @@
 
 
 
-//print numbers from 1 to 20 using a for loop
+// print numbers from 1 to 20 using a for loop
 
 // for(let i= 1; i <21; i++){
 //     console.log(i);
 // }
 
 
-//print number s from 10 to 1 using a for loop
+// print number s from 10 to 1 using a for loop
 
 // for(i = 10 ; i>0 ; i--){
 //     console.log(i);
 // }
 
 
-//print even number s from 1 to 20 using a for loop
+// print even number s from 1 to 20 using a for loop
 
 
 
-//print odd number from 1 to 15 using while loop 
+// print odd number from 1 to 15 using while loop 
 
 // let i =0;
 // while(i<=15){
@@ -110,13 +110,13 @@
 // }
 
 
-//print the multiplication table of 5 
+// print the multiplication table of 5 
 
 // for ( let i = 1 ; i<=55;i++){
 //     console.log (`5 x ${i} = ${5*i}`)
 // }
 
-//find the sum of number from 1 to 100 using a loop 
+// find the sum of number from 1 to 100 using a loop 
 
 // let sum = 0 ; 
 // for ( let i = 1 ; i<=100 ;i++){
@@ -152,7 +152,7 @@
 // }
 
 
-//Q2 - Skip multiples of 3
+// Q2 - Skip multiples of 3
 // write a loop from 1 to 50 that
 // . prints each number 
 // . skips any number that is divisble by 3
@@ -165,18 +165,18 @@
 
 
 
-//=============================================================================================================================
-//=============================================================================================================================
-//=============================================================================================================================
-//=============================================================================================================================
-//=============================================================================================================================
-//=============================================================================================================================
+// =============================================================================================================================
+// =============================================================================================================================
+// =============================================================================================================================
+// =============================================================================================================================
+// =============================================================================================================================
+// =============================================================================================================================
 
 
 
-//Projects
+// Projects
 
-//Project 1 -  BMI Calculattor
+// Project 1 -  BMI Calculattor
 
 // function bmi(weight, hieght){
 //     return weight / (hieght*hieght);
@@ -186,7 +186,7 @@
 
 
 
-//Project 2 - Create a reusable disccount calculator function (hof)
+// Project 2 - Create a reusable disccount calculator function (hof)
 // high order function is a fucntion which use another function as an argument ot return a function as a result 
 
 // function ds(discount){
@@ -202,9 +202,9 @@
 
 
 
-//project 3 - create a pure function to transform a value
+// project 3 - create a pure function to transform a value
 
-//pure function are fucntion which does not effect the variable outside the fucntion 
+// pure function are fucntion which does not effect the variable outside the fucntion 
 
 // function adding(val){
 //     return val+val-1
@@ -233,7 +233,7 @@
 // fruits[1]="kiwi";
 // console.log(fruits);
 
-//what ths difference btw push and unshift 
+// what ths difference btw push and unshift 
 
 // let fruits =["apple","banana","grapes"];
 // fruits.push("hi")
@@ -241,11 +241,11 @@
 // fruits.unshift("byw")
 // console.log(fruits);
 
-//push add the element at the end of the array 
-//unshift push the element at the start of the array 
+// push add the element at the end of the array 
+// unshift push the element at the start of the array 
 
 
-//remove the items from this array using a methos
+// remove the items from this array using a methos
 
 // let numbers =[1,2,3,4,5,6,7,8,9];
 // numbers.pop()
@@ -253,6 +253,12 @@
 
 // insert red and blue at index 1
 
-let colors =["green","yellow","black"];
-colors.splice(1,0,"red","blue");
-console.log(colors);
+// let colors =["green","yellow","black"];
+// colors.splice(1,0,"red","blue");
+// console.log(colors);
+
+
+// extract the middle 3 number from the array 
+let arr =[1,2,3,4,5,6,7,8,9];
+let middle= arr.slice(3,6)
+console.log(middle);
