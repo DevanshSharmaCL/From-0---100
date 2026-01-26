@@ -118,7 +118,14 @@
 
 //find the sum of number from 1 to 100 using a loop 
 
-let sum = 0 ; 
-for ( let i = 1 ; i<=100 ;i++){
-    console.log (sum += i)
+// let sum = 0 ; 
+// for ( let i = 1 ; i<=100 ;i++){
+//     console.log (sum += i)
+// }
+
+
+// print all the number from 1 to 50 , which are divisble by 3 
+
+for (let i = 1 ; i<=50 ; i++){
+    console.log(i%3===0?i:"")
 }
