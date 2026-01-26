@@ -235,11 +235,11 @@
 
 //what ths difference btw push and unshift 
 
-let fruits =["apple","banana","grapes"];
-fruits.push("hi")
-console.log(fruits);
-fruits.unshift("byw")
-console.log(fruits);
+// let fruits =["apple","banana","grapes"];
+// fruits.push("hi")
+// console.log(fruits);
+// fruits.unshift("byw")
+// console.log(fruits);
 
 //push add the element at the end of the array 
 //unshift push the element at the start of the array 
@@ -247,6 +247,12 @@ console.log(fruits);
 
 //remove the items from this array using a methos
 
-let numbers =[1,2,3,4,5,6,7,8,9];
-numbers.pop()
-console.log(numbers);
+// let numbers =[1,2,3,4,5,6,7,8,9];
+// numbers.pop()
+// console.log(numbers);
+
+// insert red and blue at index 1
+
+let colors =["green","yellow","black"];
+colors.splice(1,0,"red","blue");
+console.log(colors);
