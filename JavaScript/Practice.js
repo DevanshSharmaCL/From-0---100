@@ -661,6 +661,18 @@
 
 // create a IIFE THAT PRINTS "I Run instantly"
 
-(function (){
-    console.log("I run Instantly")
-}) ()
+// (function (){
+//     console.log("I run Instantly")
+// }) ()
+
+
+//make a nested function where inner one print the otter one 
+
+function parent(){
+    let a = 10 ;
+    function child(){
+        console.log(a)
+    }
+    child()
+}
+parent()
