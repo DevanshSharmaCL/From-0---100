@@ -787,9 +787,17 @@
 
 //use filter to get number which is even 
 
-let arr =[1,2,3,4,5,6,7,8,9,10];
-let even = arr.filter(function(val){
-    return val%2===0;
-})
+// let arr =[1,2,3,4,5,6,7,8,9,10];
+// let even = arr.filter(function(val){
+//     return val%2===0;
+// })
 
-console.log(even);
+// console.log(even);
+
+
+//use reduce to to find total sallary of an array
+let sallary = [1000,2000,3000,4000,5000];
+let total = sallary.reduce(function(acc,val){
+    return acc+val;
+})
+console.log(total);
