@@ -540,8 +540,19 @@
 
 //print number divisible by 7 from 1 to 50 using module % and loop 
 
-for (let i = 1 ; i<=50;i++){
-    if(i%7===0){
-        console.log(i);
+// for (let i = 1 ; i<=50;i++){
+//     if(i%7===0){
+//         console.log(i);
+//     }
+// }
+
+
+//summ of all odd number from 1 to 30 add only odd number 
+
+let sum = 0 ; 
+for (let i = 1 ; i<=30;i++){
+    if(i%2!=0){
+        sum = sum+i;
+        console.log(sum);
     }
 }
