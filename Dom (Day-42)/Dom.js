@@ -29,3 +29,11 @@ box.style.justifyContent = "center"
 box.style.color = "cyan"
 box.style.alignItems = "center"
 box.style.fontSize = "30px"
+
+
+
+//4. Event Listeners
+
+box.addEventListener('click',()=>{
+    box.style.backgroundColor="blue"
+})
