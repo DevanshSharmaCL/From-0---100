@@ -525,14 +525,23 @@
 
 //count yes untill stop is entered
 
-let word=prompt("enter anyword");
-let count=0;
+// let word=prompt("enter anyword");
+// let count=0;
 
-while(word!="stop"){
-    if(word==="yes"){
-        count++;
+// while(word!="stop"){
+//     if(word==="yes"){
+//         count++;
+//     }
+//     console.log(word);
+//     word=prompt("enter anyword");
+// }
+// console.log(`this many times yes was entered = ${count}`);
+
+
+//print number divisible by 7 from 1 to 50 using module % and loop 
+
+for (let i = 1 ; i<=50;i++){
+    if(i%7===0){
+        console.log(i);
     }
-    console.log(word);
-    word=prompt("enter anyword");
 }
-console.log(`this many times yes was entered = ${count}`);
