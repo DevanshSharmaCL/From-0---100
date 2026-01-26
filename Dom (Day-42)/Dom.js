@@ -37,3 +37,21 @@ box.style.fontSize = "30px"
 box.addEventListener('click',()=>{
     box.style.backgroundColor="blue"
 })
+
+// differnce btw textContent and innerHTML , inertext
+// ✅ Use textContent → 90% of time
+// ⚠️ Use innerHTML → only when needed
+// 🐢 Use innerText → when checking visible text
+
+
+
+let positive = document.querySelector('.increment')
+let button = document.querySelector('button')
+
+positive.style.fontSize = "40px"
+button.style.padding = "10px 20px"
+button.style.fontSize = "20px"
+button.style.backgroundColor = "green"
+button.addEventListener('click',function(){
+    positive.innerHTML = Number(positive.innerHTML)+1
+})
