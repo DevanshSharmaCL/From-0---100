@@ -699,12 +699,20 @@
 
 //create an object person with key names , age , city and print all the keys value 
 
-let person = {
-    fullName:"dev",
-    age:20,
-    city:"gurgaon",
-}
+// let person = {
+//     fullName:"dev",
+//     age:20,
+//     city:"gurgaon",
+// }
 
-for (let key in person){
-    console.log(key,":",person[key])
-}
+// for (let key in person){
+//     console.log(key,":",person[key])
+// }
+
+
+
+// use settimout of 2 sec
+
+setTimeout(function(){
+    console.log("times'up")
+},2000)
