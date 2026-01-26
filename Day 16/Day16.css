@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #ba701b, #693001);
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+
+}
+
+.card{
+    height: 450px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: 10px;
+
+    
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.bottom{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(137, 36, 5);
+    bottom: -30%;
+    background: linear-gradient(transparent, rgba(252, 116, 4, 0.5));
+    transition: all 0.2s ease-in-out;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom h3{
+    color: white;
+    margin-top: 26px;
+    font-size: 22px;
+    margin-left: -43px;
+}
+
+
+.card:hover .bottom {
+    bottom: 0;
+}
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: -40px;
+    margin-right: -40px;
+    
+}
+button i{
+    color: white;
+}
+button i:hover{
+    color: blanchedalmond;
+}
