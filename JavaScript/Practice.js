@@ -315,10 +315,21 @@
 
 // use .some to check if any student has scored bellow 35 ------> this return values in true and false
 
-let arr = [40,55,30,70,85];
+// let arr = [40,55,30,70,85];
 
-let check =arr.some(function(val){
-    return val<35
+// let check =arr.some(function(val){
+//     return val<35
+// })
+
+// console.log(check);
+
+
+
+//use .every to check if all numbver are even 
+//this too return values in true and false
+let arr =[2,4,6,8,10];
+let even = arr.every(function(val){
+    return val 
 })
 
-console.log(check);
+console.log(even);
