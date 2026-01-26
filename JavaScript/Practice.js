@@ -806,13 +806,13 @@
 
 //create an array of names and use some and every to check that every name is longer than 3 char
 
-let names = ["dev","an","sh","kumar"];
-let everyName = names.every(function(val){
-    return val.length>3
-})
-console.log(everyName);
+// let names = ["dev","an","sh","kumar"];
+// let everyName = names.every(function(val){
+//     return val.length>3
+// })
+// console.log(everyName);
 
-let someName = names.some(function(val){
-    return val.length>3
-})
-console.log(someName);
+// let someName = names.some(function(val){
+//     return val.length>3
+// })
+// console.log(someName);
