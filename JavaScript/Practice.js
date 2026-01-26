@@ -720,10 +720,25 @@
 
 //write a high order function which call a function that takes another function twice 
 
-function runTwice(fn){
-fn()
-fn()
+// function runTwice(fn){
+// fn()
+// fn()
+// }
+// runTwice(function(){
+//     console.log("hi")
+// })
+
+
+//create one pure function that always returns a same output for given input , and one impure function using a global variable 
+
+function pure(a,b){
+    console.log(a+b)
 }
-runTwice(function(){
-    console.log("hi")
-})
+pure(2,3)
+
+let global= 0 ;
+function impure(a){
+    global++;
+    console.log(a+global)
+}
+impure(2)
