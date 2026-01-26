@@ -376,9 +376,19 @@
 
 
 //create an object for a student with name , age , city 
-let student={
+// let student={
+//     name:'dev',
+//     age:"19",
+//     city:"gurgaon",
+// }
+// console.log(student);
+
+
+
+//access the first name 
+
+let student ={
     name:'dev',
-    age:"19",
-    city:"gurgaon",
 }
-console.log(student);
+
+console.log(student['name']);
