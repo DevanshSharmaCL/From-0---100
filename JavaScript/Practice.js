@@ -549,10 +549,21 @@
 
 //summ of all odd number from 1 to 30 add only odd number 
 
-let sum = 0 ; 
-for (let i = 1 ; i<=30;i++){
-    if(i%2!=0){
-        sum = sum+i;
-        console.log(sum);
-    }
+// let sum = 0 ; 
+// for (let i = 1 ; i<=30;i++){
+//     if(i%2!=0){
+//         sum = sum+i;
+//         console.log(sum);
+//     }
+// }
+
+
+
+// keep asking the user for the number untill they enter the even number 
+
+let user = +prompt("ernter the n");
+
+while(user%2!=0){
+    user = +prompt("enter the n");
+    console.log(user);
 }
