@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    width: 100%;
+    // background-color: red;
+}
+
+main {
+    nav {
+        padding: 0 24px;
+        display: flex;
+        background-color: #002c3a;
+        position: sticky;
+        z-index: 10;
+        top: 0;
+        border: 1px solid white;
+
+        .nav-content {
+            // padding: 5px 0px 5px 0px;
+            // flex: 1; // 🔥 THIS IS THE FIX
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: red;
+
+            .nav-left {
+                display: flex;
+                align-items: center;
+
+                .brand-logo {
+                    size: 10px;
+                }
+            }
+
+            .nav-right {
+                display: flex;
+                align-items: center;
+                // gap: 1rem;
+                // justify-content: end;
+
+                i {
+                    font-size: 1.3rem;
+                    padding-left: 40vw;
+                }
+
+                .nav-right-pages {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    .section-1-hero {
+        background-image: linear-gradient(to bottom left, #002c3a 20%, #3c091e);
+        height: 65em;
+
+        .container {
+            padding: 0 24px;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+
+            .mantle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                // text-align: center;
+
+                .media {
+                    img {
+                        padding-top: 5rem;
+                        margin: 0 auto;
+                        max-width: var(--img-width);
+                        width: 100%;
+                        // object-fit: cover;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    padding: 4rem 2.9rem;
+
+                    h1 {
+                        padding-bottom: 2.5rem;
+                        font-size: 2.7rem;
+                        line-height: 1.1;
+                        font-weight: bold;
+                        font-family: MS Reference Sans Serif;
+                    }
+                }
+            }
+
+            h2 {
+                font-family: MS Reference Sans Serif;
+                font-weight: 100;
+                font-size: 1.9rem;
+                text-align: center;
+            }
+        }
+    }
+
+    .section-2 {
+        .module {
+            // padding: 4rem 0 4rem 0;
+
+            .feature-coloum-container {
+                padding: 70px 24px 70px;
+                // margin: 0 24px;
+                // border: 2px solid;
+
+                .community {
+                    padding: 24px 50px 34px 0;
+                    border-top: 2px solid #b9b3aa;
+
+                    h3 {
+                        font-family: MS Reference Sans Serif;
+                        margin: 0 0 24px;
+                        font-size: 1.55rem;
+                    }
+
+                    p {
+                        color: #b9b3aa;
+                        font-size: 1.1rem;
+                        margin: 0 0 70px;
+                        font-family: MS Reference Sans Serif;
+                    }
+
+                    img {
+                        margin: 0 auto;
+                        max-width: var(--img-width);
+                        width: 100%;
+                    }
+                }
+
+                .event {
+                    padding: 24px 50px 34px 0;
+                    border-top: 2px solid #b9b3aa;
+
+                    h3 {
+                        font-family: MS Reference Sans Serif;
+                        margin: 0 0 24px;
+                        font-size: 1.55rem;
+                    }
+
+                    p {
+                        color: #b9b3aa;
+                        font-size: 1.1rem;
+                        margin: 0 0 70px;
+                        font-family: MS Reference Sans Serif;
+                    }
+
+                    img {
+                        margin: 0 auto;
+                        max-width: var(--img-width);
+                        width: 100%;
+                    }
+                }
+
+                .packages {
+                    padding: 24px 50px 34px 0;
+                    border-top: 2px solid #b9b3aa;
+
+                    h3 {
+                        font-family: MS Reference Sans Serif;
+                        margin: 0 0 24px;
+                        font-size: 1.55rem;
+                    }
+
+                    p {
+                        color: #b9b3aa;
+                        font-size: 1.1rem;
+                        margin: 0 0 70px;
+                        font-family: MS Reference Sans Serif;
+                    }
+
+                    img {
+                        margin: 0 auto;
+                        max-width: var(--img-width);
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3{
+
+        .feature-content{
+            padding: 0 24px 0 24px;
+
+            .text{
+
+                .media{
+
+                    img {
+                        margin: 0 auto;
+                        max-width: var(--img-width);
+                        width: 100%;
+                    }
+                }
+
+                hgroup{
+                    background-color:re;
+
+                    h4{
+                        font-family: MS Reference Sans Serif;
+                        padding: 2rem 0 0 0;
+                        margin: 0 0 1.3rem;
+                        // background-color: red;
+                        color: #b9b3aa;
+                        font-size: 1.1rem;
+                    }
+                    h3{
+                        font-family: MS Reference Sans Serif;
+                        font-size: 2.7rem;
+                        margin: 0 0 2rem;
+                    }
+                }
+                p{
+                    font-family: MS Reference Sans Serif;
+                    font-size: 1.2rem;
+                    margin: 0 0 1.5rem;
+                }
+
+                .links-btn{
+                    display: flex;
+                    flex-direction: column;
+
+                    button{
+                        padding: 0 2rem0;
+                        margin: 0 0 1rem;
+                        width: 15rem;
+                        height: 2rem;
+                        font-size: 1rem;
+                        border: 0.1rem solid #4CABFC;
+                        border-radius: 2.5rem;
+                        background-color: transparent;
+                        color: #4CABFC;
+                    }
+                    a{
+                        padding: 0 2rem;
+                        font-family: MS Reference Sans Serif;
+                        color: white;
+                        text-decoration: none;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+main nav {
+  padding: 0 24px;
+  display: flex;
+  background-color: #002c3a;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  border: 1px solid white;
+}
+main nav .nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav .nav-content .nav-left {
+  display: flex;
+  align-items: center;
+}
+main nav .nav-content .nav-left .brand-logo {
+  size: 10px;
+}
+main nav .nav-content .nav-right {
+  display: flex;
+  align-items: center;
+}
+main nav .nav-content .nav-right i {
+  font-size: 1.3rem;
+  padding-left: 40vw;
+}
+main nav .nav-content .nav-right .nav-right-pages {
+  visibility: hidden;
+}
+main .section-1-hero {
+  background-image: linear-gradient(to bottom left, #002c3a 20%, #3c091e);
+  height: 65em;
+}
+main .section-1-hero .container {
+  padding: 0 24px;
+}
+main .section-1-hero .container .mantle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .section-1-hero .container .mantle .media img {
+  padding-top: 5rem;
+  margin: 0 auto;
+  max-width: var(--img-width);
+  width: 100%;
+}
+main .section-1-hero .container .mantle .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2.9rem;
+}
+main .section-1-hero .container .mantle .text h1 {
+  padding-bottom: 2.5rem;
+  font-size: 2.7rem;
+  line-height: 1.1;
+  font-weight: bold;
+  font-family: MS Reference Sans Serif;
+}
+main .section-1-hero .container h2 {
+  font-family: MS Reference Sans Serif;
+  font-weight: 100;
+  font-size: 1.9rem;
+  text-align: center;
+}
+main .section-2 .module .feature-coloum-container {
+  padding: 70px 24px 70px;
+}
+main .section-2 .module .feature-coloum-container .community {
+  padding: 24px 50px 34px 0;
+  border-top: 2px solid #b9b3aa;
+}
+main .section-2 .module .feature-coloum-container .community h3 {
+  font-family: MS Reference Sans Serif;
+  margin: 0 0 24px;
+  font-size: 1.55rem;
+}
+main .section-2 .module .feature-coloum-container .community p {
+  color: #b9b3aa;
+  font-size: 1.1rem;
+  margin: 0 0 70px;
+  font-family: MS Reference Sans Serif;
+}
+main .section-2 .module .feature-coloum-container .community img {
+  margin: 0 auto;
+  max-width: var(--img-width);
+  width: 100%;
+}
+main .section-2 .module .feature-coloum-container .event {
+  padding: 24px 50px 34px 0;
+  border-top: 2px solid #b9b3aa;
+}
+main .section-2 .module .feature-coloum-container .event h3 {
+  font-family: MS Reference Sans Serif;
+  margin: 0 0 24px;
+  font-size: 1.55rem;
+}
+main .section-2 .module .feature-coloum-container .event p {
+  color: #b9b3aa;
+  font-size: 1.1rem;
+  margin: 0 0 70px;
+  font-family: MS Reference Sans Serif;
+}
+main .section-2 .module .feature-coloum-container .event img {
+  margin: 0 auto;
+  max-width: var(--img-width);
+  width: 100%;
+}
+main .section-2 .module .feature-coloum-container .packages {
+  padding: 24px 50px 34px 0;
+  border-top: 2px solid #b9b3aa;
+}
+main .section-2 .module .feature-coloum-container .packages h3 {
+  font-family: MS Reference Sans Serif;
+  margin: 0 0 24px;
+  font-size: 1.55rem;
+}
+main .section-2 .module .feature-coloum-container .packages p {
+  color: #b9b3aa;
+  font-size: 1.1rem;
+  margin: 0 0 70px;
+  font-family: MS Reference Sans Serif;
+}
+main .section-2 .module .feature-coloum-container .packages img {
+  margin: 0 auto;
+  max-width: var(--img-width);
+  width: 100%;
+}
+main .section-3 .feature-content {
+  padding: 0 24px 0 24px;
+}
+main .section-3 .feature-content .text .media img {
+  margin: 0 auto;
+  max-width: var(--img-width);
+  width: 100%;
+}
+main .section-3 .feature-content .text hgroup {
+  background-color: re;
+}
+main .section-3 .feature-content .text hgroup h4 {
+  font-family: MS Reference Sans Serif;
+  padding: 2rem 0 0 0;
+  margin: 0 0 1.3rem;
+  color: #b9b3aa;
+  font-size: 1.1rem;
+}
+main .section-3 .feature-content .text hgroup h3 {
+  font-family: MS Reference Sans Serif;
+  font-size: 2.7rem;
+  margin: 0 0 2rem;
+}
+main .section-3 .feature-content .text p {
+  font-family: MS Reference Sans Serif;
+  font-size: 1.2rem;
+  margin: 0 0 1.5rem;
+}
+main .section-3 .feature-content .text .links-btn {
+  display: flex;
+  flex-direction: column;
+}
+main .section-3 .feature-content .text .links-btn button {
+  padding: 0 2rem0;
+  margin: 0 0 1rem;
+  width: 15rem;
+  height: 2rem;
+  font-size: 1rem;
+  border: 0.1rem solid #4CABFC;
+  border-radius: 2.5rem;
+  background-color: transparent;
+  color: #4CABFC;
+}
+main .section-3 .feature-content .text .links-btn a {
+  padding: 0 2rem;
+  font-family: MS Reference Sans Serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}/*# sourceMappingURL=flutter.css.map */
