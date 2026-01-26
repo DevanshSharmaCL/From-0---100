@@ -601,17 +601,46 @@
 // }
 
 
-let userAttempt = 0;
-let even = 0;
+// let userAttempt = 0;
+// let even = 0;
 
-while (userAttempt < 5) {
-    let userinput = Number(prompt("Apna number daal"));
+// while (userAttempt < 5) {
+//     let userinput = Number(prompt("Apna number daal"));
 
-    if (userinput % 2 === 0) {
-        even++;
+//     if (userinput % 2 === 0) {
+//         even++;
+//     }
+
+//     userAttempt++;
+// }
+
+// console.log("Even numbers count =", even);
+
+
+//atm machine
+
+let amt = 1000;
+let user = prompt("Apko kya karna h (w for withdraw, d for deposit)");
+if (user === "w"){
+    console.log("U have choosed withraw")
+    let withdraw= +prompt("how much many u want to withdarw")
+    if (withdraw > amt){
+        console.log("gareeb h");
     }
+    else{
+        console.log(`${amt-withdraw} is left in the bank`)
+    }
+}
+if(user === "d"){
+    console.log("U have Choosed Deposit")
+    let deposit = +prompt("how much many u want to depostit")
+    let newbalance = deposit + amt 
+    if(deposit < 0){
+        console.log("pls enter valid number")
+    } else{
 
-    userAttempt++;
+        console.log(`${deposit} money has been added`)
+        console.log(`user new bank balance is ${newbalance}`)
+    }
 }
 
-console.log("Even numbers count =", even);
