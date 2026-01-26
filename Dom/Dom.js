@@ -55,3 +55,13 @@ button.style.backgroundColor = "green"
 button.addEventListener('click',function(){
     positive.innerHTML = Number(positive.innerHTML)+1
 })
+
+
+//math.random()
+
+let a = Math.floor(Math.random()*100)
+// let b = Math.floor(a)
+// let c = Math.ceil(a)
+let d = Math.ceil(Math.random()*100)
+
+console.log(a,d);

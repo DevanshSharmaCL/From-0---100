@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.box{
+    border: 2px solid brown;
+    height: 400px;
+    width: 400px;
+    background-color: maroon;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: brown;
+    color:burlywood;
+    border: none;
+}
+
+button:active{
+    /* transform: scale(0.95); */
+    scale: 0.95;
+    transition: ease-in-out 0.1s;
+}
