@@ -112,6 +112,13 @@
 
 //print the multiplication table of 5 
 
-for ( let i = 1 ; i<=55;i++){
-    console.log (`5 x ${i} = ${5*i}`)
+// for ( let i = 1 ; i<=55;i++){
+//     console.log (`5 x ${i} = ${5*i}`)
+// }
+
+//find the sum of number from 1 to 100 using a loop 
+
+let sum = 0 ; 
+for ( let i = 1 ; i<=100 ;i++){
+    console.log (sum += i)
 }
