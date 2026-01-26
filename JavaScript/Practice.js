@@ -411,12 +411,24 @@
 
 //from the object below print the latitude
 
+// let user = {
+//     name:"devansh",
+//     address:{
+//         street:"123 main st",
+//         latitude: "40.7128 N",
+//         longitude:"74.0060 W",
+//     }
+// };
+// console.log(user.address.latitude);
+
+// what will happen if coordinates is missing how will u prevent the error
+
 let user = {
     name:"devansh",
     address:{
         street:"123 main st",
-        latitude: "40.7128 N",
+        // latitude: "40.7128 N",
         longitude:"74.0060 W",
     }
 };
-console.log(user.address.latitude);
+console.log(user?.address?.latitude)
