@@ -206,7 +206,14 @@
 
 //pure function are fucntion which does not effect the variable outside the fucntion 
 
-function adding(val){
-    return val+val-1
-}
-console.log(adding(20));
+// function adding(val){
+//     return val+val-1
+// }
+// console.log(adding(20));
+
+
+
+// create an array with 3 fruits and print the second one
+
+let fruits =["apple","banana","mango"];
+console.log(fruits[1]);
