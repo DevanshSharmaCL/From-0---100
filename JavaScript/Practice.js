@@ -778,8 +778,18 @@
 
 //use a map to square every number in an array
 
-let arr =[1,2,3,4,5];
-let squre = arr.map(function(val){
-    return val*val
+// let arr =[1,2,3,4,5];
+// let squre = arr.map(function(val){
+//     return val*val
+// })
+// console.log(squre);
+
+
+//use filter to get number which is even 
+
+let arr =[1,2,3,4,5,6,7,8,9,10];
+let even = arr.filter(function(val){
+    return val%2===0;
 })
-console.log(squre);
+
+console.log(even);
