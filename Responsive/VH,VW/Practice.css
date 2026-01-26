@@ -9,46 +9,28 @@ html,body{
     width: 100%;
 }
 
-#parent{
-    height: 20%;
-    width: 20%;
+.Vmax{
+    font-size: 2vmax;
+}
+
+.Vmin{
+    font-size: 4.025vmin;
+}
+
+#vmax{
+    height: 20vmax;
+    width: 20vmax;
     background-color: crimson;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-#child{
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
-}
-#child p{
-    font-size: 80%;
+#vmin{
+    height: 20vmin;
+    width: 20vmin;
+    background-color: purple;
 }
 
-.px{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+.combine{
+    height: 20vmin;
+    width: 20vmax;
+    background-color: black;
 }
-
-.vhvw{
-    height: 50vh;
-    width: 50vw;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.vhvw p{
-    font-size: 50px;
-}
-
