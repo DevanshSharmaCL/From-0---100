@@ -387,8 +387,23 @@
 
 //access the first name 
 
-let student ={
-    name:'dev',
-}
+// let student ={
+//     name:'dev',
+// }
 
-console.log(student['name']);
+// console.log(student['name']);
+
+
+
+//given a dynamic key let key = "age", how will u access the user[key]
+
+let key="age";
+
+let user={
+    name:"devansh",
+    age:20,
+    city:"gurgaon",
+}
+console.log( user[key]);
+user[key]=22
+console.log(user);
