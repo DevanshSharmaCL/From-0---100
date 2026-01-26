@@ -369,6 +369,16 @@
 
 //clone the array using spread operator
 
-let arr =[1,2,3,4,5];
-let arr2=[...arr];
-console.log(arr2);
+// let arr =[1,2,3,4,5];
+// let arr2=[...arr];
+// console.log(arr2);
+
+
+
+//create an object for a student with name , age , city 
+let student={
+    name:'dev',
+    age:"19",
+    city:"gurgaon",
+}
+console.log(student);
