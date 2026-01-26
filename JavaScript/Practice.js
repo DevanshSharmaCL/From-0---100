@@ -272,8 +272,17 @@
 
 
 //use .map()to square the each number
-let arr =[1,2,3,4,5];
-let sqr = arr.map(function(val){
-    return val*val
-});
-console.log(sqr);
+// let arr =[1,2,3,4,5];
+// let sqr = arr.map(function(val){
+//     return val*val
+// });
+// console.log(sqr);
+
+
+// use .filter() to keep number gretaer than 10
+
+let arr =[5,10,15,20,25];
+let filter=arr.filter(function(val){
+    return val>=10
+})
+console.log(filter);
