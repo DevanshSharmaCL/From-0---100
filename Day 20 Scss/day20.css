@@ -5,64 +5,22 @@
 }
 
 body {
-  background: #455A72;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
-.section {
-  width: 600px;
-  height: 600px;
-  background: #162331;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 10px;
-  padding: 10px;
-  grid-template-areas: "child1 child1 child1 child2 child3" "child4 child4 child5 child2 child3" "child6 child6 child6 child2 child8" "child9 child9 child9 child9 child8" "child7 child7 child7 child7 child7";
+.blue {
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 10px;
 }
-.section div {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-.section .child1 {
-  grid-area: child1;
-  background: red;
-}
-.section .child2 {
-  grid-area: child2;
-  background: blue;
-}
-.section .child3 {
-  grid-area: child3;
-  background: purple;
-}
-.section .child4 {
-  grid-area: child4;
-  background: orange;
-}
-.section .child5 {
-  grid-area: child5;
-  background: brown;
-}
-.section .child6 {
-  grid-area: child6;
-  background: green;
-}
-.section .child7 {
-  grid-area: child7;
-  background: teal;
-}
-.section .child8 {
-  grid-area: child8;
-  background: pink;
-}
-.section .child9 {
-  grid-area: child9;
-  background: yellow;
+
+.red {
+  height: 50px;
+  width: 150px;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 10px;
 }/*# sourceMappingURL=day20.css.map */

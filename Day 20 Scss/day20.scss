@@ -4,72 +4,28 @@
     box-sizing: border-box;
 }
 
-// mixin is used to stop recurring properties
-@mixin flexcenter(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// this is how u make mixin dynamic
+//now to make anything dynamic u have to use $ sign 
+@mixin button-style($bg-color){
+    height: 50px;
+    width: 150px;
+    background-color: $bg-color;
+    text-decoration: none;
+    border-radius: 10px;
+
 }
 
 body {
-    background: #455A72;
-    @include flexcenter();
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
-.section {
-    width: 600px;
-    height: 600px;
-    background: #162331;
+.blue{
+    @include button-style(blue)
+}
 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 10px;
-    padding: 10px;
-    grid-template-areas: 
-        "child1 child1 child1 child2 child3"
-        "child4 child4 child5 child2 child3"
-        "child6 child6 child6 child2 child8"
-        "child9 child9 child9 child9 child8"
-        "child7 child7 child7 child7 child7";
-
-
-    // style all children
-    div {
-        font-size: 2rem;
-        @include flexcenter();
-        color: white;
-    }
-
-    .child1 { 
-        grid-area: child1;
-        background: red; }
-    .child2 {
-        grid-area: child2; 
-        background: blue; }
-    .child3 {
-        grid-area: child3; 
-        background: purple; }
-    .child4 {
-        grid-area: child4; 
-        background: orange; }
-    .child5 {
-        grid-area: child5; 
-        background: brown; }
-    .child6 {
-        grid-area: child6; 
-        background: green; }
-    .child7 {
-        grid-area: child7; 
-        background: teal; }
-    .child8 {
-        grid-area: child8; 
-        background: pink; }
-    .child9 {
-        grid-area: child9; 
-        background: yellow; }
+.red{
+    @include button-style(red)
 }
 
 
-// scss nesting 
