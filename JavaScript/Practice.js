@@ -221,7 +221,14 @@
 
 // add mango at the end and pineapple at the start of the array
 
+// let fruits =["apple","banana","grapes"];
+// fruits.push("mango");
+// fruits.unshift("pineapple");
+// console.log(fruits);
+
+
+// replace banana with kiwi
+
 let fruits =["apple","banana","grapes"];
-fruits.push("mango");
-fruits.unshift("pineapple");
+fruits[1]="kiwi";
 console.log(fruits);
