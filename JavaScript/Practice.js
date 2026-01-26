@@ -668,11 +668,19 @@
 
 //make a nested function where inner one print the otter one 
 
-function parent(){
-    let a = 10 ;
-    function child(){
-        console.log(a)
-    }
-    child()
-}
-parent()
+// function parent(){
+//     let a = 10 ;
+//     function child(){
+//         console.log(a)
+//     }
+//     child()
+// }
+// parent()
+
+
+//create an of 5 alphabets , add one in the end , remove one in the beginning 
+
+let arr = ["a","b","c","d","e","f",]
+arr.push("g")
+arr.shift()
+console.log(arr)
