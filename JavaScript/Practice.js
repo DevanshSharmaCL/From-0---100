@@ -126,6 +126,14 @@
 
 // print all the number from 1 to 50 , which are divisble by 3 
 
-for (let i = 1 ; i<=50 ; i++){
-    console.log(i%3===0?i:"")
+// for (let i = 1 ; i<=50 ; i++){
+//     console.log(i%3===0?i:"")
+// }
+
+// ask the user for a number and print wheather each number from 1 to that number is even or odd
+
+let number = 10
+
+for (let i = 1; i <= number; i++) {
+    console.log(i % 2 === 0 ? `${i} is even` : `${i} is odd`);
 }
