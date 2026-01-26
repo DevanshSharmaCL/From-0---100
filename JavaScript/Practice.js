@@ -761,16 +761,25 @@
 // destructre2({name:"dev", age:19,})
 
 
-//demonstrate the differemce btw normal and arrow function regarding "this" keyword
+// //demonstrate the differemce btw normal and arrow function regarding "this" keyword
 
-Obj = {
-    name:"devansh",
-    normalFunction: function(){
-        console.log("Normal Function this:", this.name);
-    },
-    arrowFunction: ()=>{
-        console.log("Arrow Function this:", this);
-    }
-}
-Obj.normalFunction();
-Obj.arrowFunction();
+// Obj = {
+//     name:"devansh",
+//     normalFunction: function(){
+//         console.log("Normal Function this:", this.name);
+//     },
+//     arrowFunction: ()=>{
+//         console.log("Arrow Function this:", this);
+//     }
+// }
+// Obj.normalFunction();
+// Obj.arrowFunction();
+
+
+//use a map to square every number in an array
+
+let arr =[1,2,3,4,5];
+let squre = arr.map(function(val){
+    return val*val
+})
+console.log(squre);
