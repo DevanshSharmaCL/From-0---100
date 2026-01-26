@@ -1,31 +1,20 @@
+@import "button";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-// this is how u make mixin dynamic
-//now to make anything dynamic u have to use $ sign 
-@mixin button-style($bg-color){
-    height: 50px;
-    width: 150px;
-    background-color: $bg-color;
-    text-decoration: none;
-    border-radius: 10px;
-
-}
-
-body {
+body,html{
     height: 100%;
     width: 100%;
 }
 
 .blue{
-    @include button-style(blue)
+    @include button-styl(blue , white, 30px)
 }
 
 .red{
-    @include button-style(red)
+    @include button-styl(red, white, 30px)
 }
-
-

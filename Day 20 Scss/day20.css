@@ -4,23 +4,29 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   height: 100%;
   width: 100%;
 }
 
 .blue {
-  height: 50px;
-  width: 150px;
   background-color: blue;
-  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border: none;
   border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
 }
 
 .red {
-  height: 50px;
-  width: 150px;
   background-color: red;
-  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border: none;
   border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
 }/*# sourceMappingURL=day20.css.map */
