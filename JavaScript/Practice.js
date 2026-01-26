@@ -483,6 +483,16 @@
 
 //print multiplication table of a 6 
 
-for(let i =1 ; i<=10 ;i++){
-    console.log(`6 x ${i} = ${6*i}`)
-}
+// for(let i =1 ; i<=10 ;i++){
+//     console.log(`6 x ${i} = ${6*i}`)
+// }
+
+
+
+//count how many number btw 1-15 are greater than 8 
+
+let arr =[1,5,8,9,12,15,7,6,10];
+let count = arr.filter(function(val){
+    return val>=8
+});
+console.log(count)
