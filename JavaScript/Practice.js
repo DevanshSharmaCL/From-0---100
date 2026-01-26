@@ -689,9 +689,22 @@
 
 //use for loop to print all the element of an array 
 
-let arr = ["a","b","c","d","e","f",]
+// let arr = ["a","b","c","d","e","f",]
 
-for (let i = 0; i < arr.length ; i++){
-    console.log(i)           //this will print the indexes
-    console.log(arr[i])      //this will print the actual array
+// for (let i = 0; i < arr.length ; i++){
+//     console.log(i)           //this will print the indexes
+//     console.log(arr[i])      //this will print the actual array
+// }
+
+
+//create an object person with key names , age , city and print all the keys value 
+
+let person = {
+    fullName:"dev",
+    age:20,
+    city:"gurgaon",
+}
+
+for (let key in person){
+    console.log(key,":",person[key])
 }
