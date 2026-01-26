@@ -9,28 +9,64 @@ html,body{
     width: 100%;
 }
 
-.Vmax{
-    font-size: 2vmax;
-}
+/* em ke case mai parent ko value do , aur fir child ko acordingly value assign karte raho  */
 
-.Vmin{
-    font-size: 4.025vmin;
-}
-
-#vmax{
-    height: 20vmax;
-    width: 20vmax;
+.em{
+    /* height: 80%; */
+    width: 80%;
     background-color: crimson;
+    font-size: 10px;
 }
 
-#vmin{
-    height: 20vmin;
-    width: 20vmin;
+.em h1{
+    font-size: 5em;
+    /* 5*10=50px */
     background-color: purple;
 }
 
-.combine{
-    height: 20vmin;
-    width: 20vmax;
-    background-color: black;
+.em h2{
+    font-size: 4em;
+    /* 4*10=40px */
+    background-color: blue;
+}
+
+.em h3{
+    font-size: 3em;
+    /* 3*10=30px */
+    background-color: violet;
+}
+
+.em h4{
+    font-size: 2em;
+    /* 2*10=20px */
+    background-color:tomato;
+}
+
+.em h5{
+    font-size: 1em;
+    /* 1*10=10px */
+    background-color:teal;
+}
+
+
+/* rem ke case mai iski value fix hoti hai which is 16 px  */
+
+
+.rem{
+    padding-top: 10px;
+}
+
+.rem h1{
+    font-size: 5rem;
+    background-color:steelblue;
+}
+
+.rem h2{
+    font-size: 4rem;
+    background-color:steelblue;
+}
+
+.rem h3{
+    font-size: 3rem;
+    background-color:steelblue;
 }
