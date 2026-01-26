@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main nav {
+  width: 100%;
+  display: flex;
+  gap: 7.5rem;
+  align-items: center;
+  height: 58px;
+}
+main nav img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100px;
+}
+main nav nav-left {
+  display: flex;
+  align-items: center;
+}
+main nav nav-left nav-logo img {
+  height: 25px;
+  width: 90px;
+}
+main nav nav-left nav-left-dropdown {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 19px;
+}
+main nav nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+main nav nav-right nav-right-icons {
+  font-size: 1.5rem;
+  gap: 16px;
+  display: flex;
+}
+main nav nav-right nav-right-profile-container img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Dribble.css.map */
