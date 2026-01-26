@@ -462,19 +462,27 @@
 
 //ask user age and check if elegible for voting
 
-let age = prompt("Enter your age");
-if (age>=18){
-    console.log("You are elegible for voting");
-}
-else if(age.trim()=== ""){
-    console.log("Please enter a valid age");    
-}
-else if(isNaN(age)){
-    console.log("Please enter a valid age");
-}
-else if(age<0){
-    console.log("Please enter a valid age");
-}
-else{
-    console.log("You are not elegible for voting");
+// let age = prompt("Enter your age");
+// if (age>=18){
+//     console.log("You are elegible for voting");
+// }
+// else if(age.trim()=== ""){
+//     console.log("Please enter a valid age");    
+// }
+// else if(isNaN(age)){
+//     console.log("Please enter a valid age");
+// }
+// else if(age<0){
+//     console.log("Please enter a valid age");
+// }
+// else{
+//     console.log("You are not elegible for voting");
+// }
+
+
+
+//print multiplication table of a 6 
+
+for(let i =1 ; i<=10 ;i++){
+    console.log(`6 x ${i} = ${6*i}`)
 }
