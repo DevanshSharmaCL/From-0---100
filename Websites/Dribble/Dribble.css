@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-family: MS Reference Sans serif;
@@ -79,7 +80,10 @@ main .hero-container .hero-content-container .search-bar {
 }
 main .hero-container .hero-content-container .search-bar i {
   position: absolute;
-  left: 16px;
+  padding: 13px;
+  background-color: red;
+  border-radius: 50%;
+  right: 0.35rem;
   top: 50%;
   transform: translateY(-50%);
   font-size: 1.1rem;
@@ -88,14 +92,15 @@ main .hero-container .hero-content-container .search-bar i {
 }
 main .hero-container .hero-content-container .search-bar input {
   width: 100%;
-  height: 42px;
+  height: 58px;
   border-radius: 2rem;
   border: 1px solid white;
   background: transparent;
-  padding-left: 44px;
+  padding-left: 15px;
   padding-right: 16px;
   color: white;
-  font-size: 0.95rem;
+  opacity: 1;
+  font-size: 0.85em;
   outline: none;
 }
 main .hero-container .hero-content-container .catorgory-container {
@@ -104,15 +109,43 @@ main .hero-container .hero-content-container .catorgory-container {
   margin-top: 2rem;
   justify-content: space-around;
 }
-main .hero-container .hero-content-container .catorgory-container .shots, main .hero-container .hero-content-container .catorgory-container .designers, main .hero-container .hero-content-container .catorgory-container .service {
+main .hero-container .hero-content-container .catorgory-container .shots,
+main .hero-container .hero-content-container .catorgory-container .designers,
+main .hero-container .hero-content-container .catorgory-container .service {
   border-radius: 2rem;
   padding: 0.7rem;
   border: 0.2rem solid white;
-  background-color: #2E2A38;
+  background-color: #2e2a38;
 }
 main .hero-container .hero-content-container .catorgory-container i {
   font-size: 1.1rem;
 }
 main .hero-container .hero-content-container .head-container {
   width: 100%;
+}
+main .hero-container .filter-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+main .hero-container .filter-container .popular {
+  font-weight: 400;
+}
+main .hero-container .filter-container .filter-des {
+  display: flex;
+  gap: 0.6rem;
+}
+main .hero-container .filter-container .filter-des .filter-chip {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+}
+main .hero-container .filter-container .filter-des .filter-chip:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.06);
 }/*# sourceMappingURL=Dribble.css.map */
