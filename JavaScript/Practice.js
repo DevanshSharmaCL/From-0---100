@@ -351,8 +351,17 @@
 // spread operator is used to expand the array
 //...a this is expanding the array a
 
-let a = [1,2,3];
-let b = [4,5,6];
+// let a = [1,2,3];
+// let b = [4,5,6];
 
-let merge=[...a,...b];
-console.log(merge);
+// let merge=[...a,...b];
+// console.log(merge);
+
+
+
+// add "india" to the start of the array
+
+let countries =["usa","uk","uae"];
+let add=['india',...countries];
+console.log(add);
+
