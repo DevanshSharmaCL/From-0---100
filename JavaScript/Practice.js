@@ -680,7 +680,18 @@
 
 //create an of 5 alphabets , add one in the end , remove one in the beginning 
 
+// let arr = ["a","b","c","d","e","f",]
+// arr.push("g")
+// arr.shift()
+// console.log(arr)
+
+
+
+//use for loop to print all the element of an array 
+
 let arr = ["a","b","c","d","e","f",]
-arr.push("g")
-arr.shift()
-console.log(arr)
+
+for (let i = 0; i < arr.length ; i++){
+    console.log(i)           //this will print the indexes
+    console.log(arr[i])      //this will print the actual array
+}
