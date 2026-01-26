@@ -178,7 +178,23 @@
 
 //Project 1 -  BMI Calculattor
 
-function bmi(weight, hieght){
-    return weight / (hieght*hieght);
+// function bmi(weight, hieght){
+//     return weight / (hieght*hieght);
+// }
+// console.log(Math.round(bmi(50,1.7)))
+
+
+
+
+//Project 2 - Create a reusable disccount calculator function (hof)
+// high order function is a fucntion which use another function as an argument ot return a function as a result 
+
+function ds(discount){
+    return function (price){
+        return price-price*(discount/100);
+    }
 }
-console.log(Math.round(bmi(50,1.7)))
+let ten = ds(10);
+let twenty = ds(20);
+console.log(ten(100));
+console.log(twenty(200));
