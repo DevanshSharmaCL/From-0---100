@@ -215,5 +215,13 @@
 
 // create an array with 3 fruits and print the second one
 
-let fruits =["apple","banana","mango"];
-console.log(fruits[1]);
+// let fruits =["apple","banana","mango"];
+// console.log(fruits[1]);
+
+
+// add mango at the end and pineapple at the start of the array
+
+let fruits =["apple","banana","grapes"];
+fruits.push("mango");
+fruits.unshift("pineapple");
+console.log(fruits);
