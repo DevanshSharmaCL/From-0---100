@@ -731,14 +731,31 @@
 
 //create one pure function that always returns a same output for given input , and one impure function using a global variable 
 
-function pure(a,b){
-    console.log(a+b)
-}
-pure(2,3)
+// function pure(a,b){
+//     console.log(a+b)
+// }
+// pure(2,3)
 
-let global= 0 ;
-function impure(a){
-    global++;
-    console.log(a+global)
-}
-impure(2)
+// let global= 0 ;
+// function impure(a){
+//     global++;
+//     console.log(a+global)
+// }
+// impure(2)
+
+
+// write the function that uses object destructuring inside the parameters to extract variable
+
+// //method 1 
+// function destructre(obj){
+//     console.log(obj.name)
+//     console.log(obj.age)
+// }
+// destructre({name:"dev", age:19})
+
+
+// //method 2
+// function destructre2(name,age){
+//     console.log(name,age)
+// }
+// destructre2({name:"dev", age:19,})
