@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #455A72;
+// mixin is used to stop recurring properties
+@mixin flexcenter(){
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
+    background: #455A72;
+    @include flexcenter();
     height: 100vh;
 }
 
@@ -32,10 +37,8 @@ body {
 
     // style all children
     div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 2rem;
+        @include flexcenter();
         color: white;
     }
 

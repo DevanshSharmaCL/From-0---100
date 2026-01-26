@@ -24,10 +24,10 @@ body {
   grid-template-areas: "child1 child1 child1 child2 child3" "child4 child4 child5 child2 child3" "child6 child6 child6 child2 child8" "child9 child9 child9 child9 child8" "child7 child7 child7 child7 child7";
 }
 .section div {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
   color: white;
 }
 .section .child1 {
