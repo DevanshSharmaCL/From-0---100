@@ -144,9 +144,19 @@
 //   . print each number 
 //   .stops completely when it finds its first number that is divisble by 7 
 
-for ( let i = 1 ; 1<=101; i++){
-    console.log(i)
-    if(i%7===0){
-        break;
-    }
+// for ( let i = 1 ; 1<=101; i++){
+//     console.log(i)
+//     if(i%7===0){
+//         break;
+//     }
+// }
+
+
+//Q2 - Skip multiples of 3
+// write a loop from 1 to 50 that
+// . prints each number 
+// . skips any number that is divisble by 3
+
+for (let i = 1 ; i<=50;i++){
+    console.log(i%3===0?"":i)
 }
