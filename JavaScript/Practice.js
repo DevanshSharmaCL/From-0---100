@@ -759,3 +759,18 @@
 //     console.log(name,age)
 // }
 // destructre2({name:"dev", age:19,})
+
+
+//demonstrate the differemce btw normal and arrow function regarding "this" keyword
+
+Obj = {
+    name:"devansh",
+    normalFunction: function(){
+        console.log("Normal Function this:", this.name);
+    },
+    arrowFunction: ()=>{
+        console.log("Arrow Function this:", this);
+    }
+}
+Obj.normalFunction();
+Obj.arrowFunction();
