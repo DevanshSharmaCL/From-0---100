@@ -189,12 +189,24 @@
 //Project 2 - Create a reusable disccount calculator function (hof)
 // high order function is a fucntion which use another function as an argument ot return a function as a result 
 
-function ds(discount){
-    return function (price){
-        return price-price*(discount/100);
-    }
+// function ds(discount){
+//     return function (price){
+//         return price-price*(discount/100);
+//     }
+// }
+// let ten = ds(10);
+// let twenty = ds(20);
+// console.log(ten(100));
+// console.log(twenty(200));
+
+
+
+
+//project 3 - create a pure function to transform a value
+
+//pure function are fucntion which does not effect the variable outside the fucntion 
+
+function adding(val){
+    return val+val-1
 }
-let ten = ds(10);
-let twenty = ds(20);
-console.log(ten(100));
-console.log(twenty(200));
+console.log(adding(20));
