@@ -9,64 +9,10 @@ html,body{
     width: 100%;
 }
 
-/* em ke case mai parent ko value do , aur fir child ko acordingly value assign karte raho  */
-
-.em{
-    /* height: 80%; */
-    width: 80%;
-    background-color: crimson;
-    font-size: 10px;
+.ch{
+    width: 1ch;
 }
 
-.em h1{
-    font-size: 5em;
-    /* 5*10=50px */
-    background-color: purple;
-}
-
-.em h2{
-    font-size: 4em;
-    /* 4*10=40px */
-    background-color: blue;
-}
-
-.em h3{
-    font-size: 3em;
-    /* 3*10=30px */
-    background-color: violet;
-}
-
-.em h4{
-    font-size: 2em;
-    /* 2*10=20px */
-    background-color:tomato;
-}
-
-.em h5{
-    font-size: 1em;
-    /* 1*10=10px */
-    background-color:teal;
-}
-
-
-/* rem ke case mai iski value fix hoti hai which is 16 px  */
-
-
-.rem{
-    padding-top: 10px;
-}
-
-.rem h1{
-    font-size: 5rem;
-    background-color:steelblue;
-}
-
-.rem h2{
-    font-size: 4rem;
-    background-color:steelblue;
-}
-
-.rem h3{
-    font-size: 3rem;
-    background-color:steelblue;
+.lh{
+    margin-top: 2lh;
 }
