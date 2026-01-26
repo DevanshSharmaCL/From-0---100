@@ -361,7 +361,14 @@
 
 // add "india" to the start of the array
 
-let countries =["usa","uk","uae"];
-let add=['india',...countries];
-console.log(add);
+// let countries =["usa","uk","uae"];
+// let add=['india',...countries];
+// console.log(add);
 
+
+
+//clone the array using spread operator
+
+let arr =[1,2,3,4,5];
+let arr2=[...arr];
+console.log(arr2);
