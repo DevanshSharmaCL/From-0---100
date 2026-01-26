@@ -327,9 +327,21 @@
 
 //use .every to check if all numbver are even 
 //this too return values in true and false
-let arr =[2,4,6,8,10];
-let even = arr.every(function(val){
-    return val 
-})
+// let arr =[2,4,6,8,10];
+// let even = arr.every(function(val){
+//     return val 
+// })
 
-console.log(even);
+// console.log(even);
+
+
+
+//destructure this array to get first name and last name 
+//in this we just have to match the position of the array
+
+let fullName =["Cyber","Light"];
+let [firstName , lastName] = fullName;
+
+console.log(firstName);
+console.log(lastName);
+
