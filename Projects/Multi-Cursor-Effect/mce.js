@@ -15,7 +15,6 @@ div.forEach(function(e){
 e.addEventListener('mouseleave',function(){
     e.style.backgroundColor = "transparent"
     img.style.opacity = '0'
-    // console.log("leaved")
  })
 
 
