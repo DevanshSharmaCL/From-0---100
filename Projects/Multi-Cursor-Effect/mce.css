@@ -37,4 +37,5 @@ img{
     position: absolute;
     opacity: 0;
     transition: linear 0.1s;
+    mix-blend-mode: difference;
 }

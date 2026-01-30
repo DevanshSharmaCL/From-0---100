@@ -7,7 +7,7 @@ div.forEach(function(e){
 
 
  e.addEventListener('mouseenter',function(){
-    e.style.backgroundColor = "red"
+    e.style.backgroundColor = "black"
     img.style.opacity = '1'
 })
 
