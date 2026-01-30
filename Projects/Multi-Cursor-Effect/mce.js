@@ -21,6 +21,6 @@ e.addEventListener('mouseleave',function(){
 
  e.addEventListener('mousemove',function(move){
     img.style.top = move.y + 'px'
-    // img.style.left = move.x + 'px'
+    img.style.left = move.x + 'px'
  })
 })
