@@ -14,7 +14,7 @@ html,body{
 .main{
     height: 100%;
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .col{
@@ -24,6 +24,8 @@ html,body{
     border-radius:10px;
     display: flex;
     align-items: center;
+    /* position: relative; */
+    overflow: hidden;
 }
 
 img{
@@ -32,4 +34,7 @@ img{
     border-radius: 50%;
     object-fit: cover;
     object-position: bottom;
+    position: absolute;
+    opacity: 0;
+    transition: linear 0.1s;
 }
