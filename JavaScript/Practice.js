@@ -819,32 +819,40 @@
 
 // Sum the object age 
 
-let arr = [
-    {
-        name:"dev",
-        age :20,
-        location:"Ashok Vihar",
-    },
-    {
-        name:"ansh",
-        age :21,
-        location:"sector 37d",
-    },
-    {
-        name:"manav",
-        age :22,
-        location:"Ashok Vihar",
-    },
-    {
-        name:"xyz",
-        age :20,
-        location:"idk",
-    },
-]
+// let arr = [
+//     {
+//         name:"dev",
+//         age :20,
+//         location:"Ashok Vihar",
+//     },
+//     {
+//         name:"ansh",
+//         age :21,
+//         location:"sector 37d",
+//     },
+//     {
+//         name:"manav",
+//         age :22,
+//         location:"Ashok Vihar",
+//     },
+//     {
+//         name:"xyz",
+//         age :20,
+//         location:"idk",
+//     },
+// ]
 
-let sum = 0
-arr.forEach(function(details,index){
-    sum += details.age
+// let sum = 0
+// arr.forEach(function(details,index){
+//     sum += details.age
+// })
+
+// console.log(sum/arr.length)
+
+
+// keydown event listener
+
+let body = document.body
+body.addEventListener('keydown',function(d){
+    console.log(d)
 })
-
-console.log(sum/arr.length)
