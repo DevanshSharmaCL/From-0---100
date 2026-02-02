@@ -277,7 +277,7 @@
 // console.log(alphabet);
 
 
-//use .map()to square the each number
+// use .map()to square the each number
 // let arr =[1,2,3,4,5];
 // let sqr = arr.map(function(val){
 //     return val*val
@@ -303,7 +303,7 @@
 // console.log(sum);
 
 
-//use .find() to get the first number less than 10 
+// use .find() to get the first number less than 10 
 
 // let arr =[12,15,8,20,5];
 // let les = arr.find(function(val){
@@ -325,8 +325,8 @@
 
 
 
-//use .every to check if all numbver are even 
-//this too return values in true and false
+// use .every to check if all numbver are even 
+// this too return values in true and false
 // let arr =[2,4,6,8,10];
 // let even = arr.every(function(val){
 //     return val 
@@ -336,8 +336,8 @@
 
 
 
-//destructure this array to get first name and last name 
-//in this we just have to match the position of the array
+// destructure this array to get first name and last name 
+// in this we just have to match the position of the array
 
 // let fullName =["Cyber","Light"];
 // let [firstName , lastName] = fullName;
@@ -347,9 +347,9 @@
 
 
 
-//merge two array using spread operator
+// merge two array using spread operator
 // spread operator is used to expand the array
-//...a this is expanding the array a
+// ...a this is expanding the array a
 
 // let a = [1,2,3];
 // let b = [4,5,6];
@@ -367,7 +367,7 @@
 
 
 
-//clone the array using spread operator
+// clone the array using spread operator
 
 // let arr =[1,2,3,4,5];
 // let arr2=[...arr];
@@ -375,7 +375,7 @@
 
 
 
-//create an object for a student with name , age , city 
+// create an object for a student with name , age , city 
 // let student={
 //     name:'dev',
 //     age:"19",
@@ -385,7 +385,7 @@
 
 
 
-//access the first name 
+// access the first name 
 
 // let student ={
 //     name:'dev',
@@ -395,7 +395,7 @@
 
 
 
-//given a dynamic key let key = "age", how will u access the user[key]
+// given a dynamic key let key = "age", how will u access the user[key]
 
 // let key="age";
 
@@ -409,7 +409,7 @@
 // console.log(user);
 
 
-//from the object below print the latitude
+// from the object below print the latitude
 
 // let user = {
 //     name:"devansh",
@@ -434,7 +434,7 @@
 // console.log(user?.address?.latitude)
 
 
-//destructre the the frist name as a variable 
+// destructre the the frist name as a variable 
 
 // let user={
 //     "Full-name":"dev"
@@ -447,7 +447,7 @@
 
 
 
-//use for-in to log all keys in this object
+// use for-in to log all keys in this object
 // let user ={
 //     name:"devansh",
 //     age:20,
@@ -460,7 +460,7 @@
 
 
 
-//ask user age and check if elegible for voting
+// ask user age and check if elegible for voting
 
 // let age = prompt("Enter your age");
 // if (age>=18){
@@ -481,7 +481,7 @@
 
 
 
-//print multiplication table of a 6 
+// print multiplication table of a 6 
 
 // for(let i =1 ; i<=10 ;i++){
 //     console.log(`6 x ${i} = ${6*i}`)
@@ -489,7 +489,7 @@
 
 
 
-//count how many number btw 1-15 are greater than 8 
+// count how many number btw 1-15 are greater than 8 
 
 // let arr =[1,5,8,9,12,15,7,6,10];
 // let count = arr.filter(function(val){
@@ -500,7 +500,7 @@
 
 
 
-//allow only 3 attempts to enter the correct password, other wise lock the account
+// allow only 3 attempts to enter the correct password, other wise lock the account
 
 // let attempts = 0;
 // let password ="Dev"
@@ -523,7 +523,7 @@
 
 
 
-//count yes untill stop is entered
+// count yes untill stop is entered
 
 // let word=prompt("enter anyword");
 // let count=0;
@@ -538,7 +538,7 @@
 // console.log(`this many times yes was entered = ${count}`);
 
 
-//print number divisible by 7 from 1 to 50 using module % and loop 
+// print number divisible by 7 from 1 to 50 using module % and loop 
 
 // for (let i = 1 ; i<=50;i++){
 //     if(i%7===0){
@@ -547,7 +547,7 @@
 // }
 
 
-//summ of all odd number from 1 to 30 add only odd number 
+// summ of all odd number from 1 to 30 add only odd number 
 
 // let sum = 0 ; 
 // for (let i = 1 ; i<=30;i++){
@@ -587,7 +587,7 @@
 
 
 
-//print only first 3 odd number from 1 to 20 , use break to stop the code
+// print only first 3 odd number from 1 to 20 , use break to stop the code
 
 // let count = 0 ;
 // for (let i = 1;i<=20;i++){
@@ -617,7 +617,7 @@
 // console.log("Even numbers count =", even);
 
 
-//atm machine
+// atm machine
 
 // let amt = 1000;
 // let user = prompt("Apko kya karna h (w for withdraw, d for deposit)");
@@ -646,7 +646,7 @@
 
 
 
-//use rest parameter tp make a fucntion that adds unlimited number 
+// use rest parameter tp make a fucntion that adds unlimited number 
 
 // function addUnlimited(...nums){
 //     let sum = 0 ; 
@@ -666,7 +666,7 @@
 // }) ()
 
 
-//make a nested function where inner one print the otter one 
+// make a nested function where inner one print the otter one 
 
 // function parent(){
 //     let a = 10 ;
@@ -678,7 +678,7 @@
 // parent()
 
 
-//create an of 5 alphabets , add one in the end , remove one in the beginning 
+// create an of 5 alphabets , add one in the end , remove one in the beginning 
 
 // let arr = ["a","b","c","d","e","f",]
 // arr.push("g")
@@ -687,7 +687,7 @@
 
 
 
-//use for loop to print all the element of an array 
+// use for loop to print all the element of an array 
 
 // let arr = ["a","b","c","d","e","f",]
 
@@ -697,7 +697,7 @@
 // }
 
 
-//create an object person with key names , age , city and print all the keys value 
+// create an object person with key names , age , city and print all the keys value 
 
 // let person = {
 //     fullName:"dev",
@@ -718,7 +718,7 @@
 // },2000)
 
 
-//write a high order function which call a function that takes another function twice 
+// write a high order function which call a function that takes another function twice 
 
 // function runTwice(fn){
 // fn()
@@ -729,7 +729,7 @@
 // })
 
 
-//create one pure function that always returns a same output for given input , and one impure function using a global variable 
+// create one pure function that always returns a same output for given input , and one impure function using a global variable 
 
 // function pure(a,b){
 //     console.log(a+b)
@@ -776,7 +776,7 @@
 // Obj.arrowFunction();
 
 
-//use a map to square every number in an array
+// use a map to square every number in an array
 
 // let arr =[1,2,3,4,5];
 // let squre = arr.map(function(val){
@@ -785,7 +785,7 @@
 // console.log(squre);
 
 
-//use filter to get number which is even 
+// use filter to get number which is even 
 
 // let arr =[1,2,3,4,5,6,7,8,9,10];
 // let even = arr.filter(function(val){
@@ -795,7 +795,7 @@
 // console.log(even);
 
 
-//use reduce to to find total sallary of an array
+// use reduce to to find total sallary of an array
 
 // let sallary = [1000,2000,3000,4000,5000];
 // let total = sallary.reduce(function(acc,val){
@@ -804,7 +804,7 @@
 // console.log(total);
 
 
-//create an array of names and use some and every to check that every name is longer than 3 char
+// create an array of names and use some and every to check that every name is longer than 3 char
 
 // let names = ["dev","an","sh","kumar"];
 // let everyName = names.every(function(val){
@@ -816,3 +816,35 @@
 //     return val.length>3
 // })
 // console.log(someName);
+
+// Sum the object age 
+
+let arr = [
+    {
+        name:"dev",
+        age :20,
+        location:"Ashok Vihar",
+    },
+    {
+        name:"ansh",
+        age :21,
+        location:"sector 37d",
+    },
+    {
+        name:"manav",
+        age :22,
+        location:"Ashok Vihar",
+    },
+    {
+        name:"xyz",
+        age :20,
+        location:"idk",
+    },
+]
+
+let sum = 0
+arr.forEach(function(details,index){
+    sum += details.age
+})
+
+console.log(sum/arr.length)
