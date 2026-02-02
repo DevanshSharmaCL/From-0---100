@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #1f1f1f;
+    cursor: none;
+}
+
+main{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor img{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    /* transform: translate(-50%,-50%); */
+    pointer-events: none;
+}
+
+button{
+    height: 100px;
+    width: 300px;
+    background-color: purple;
+}
+
+button:active{
+    /* cursor: none; */
+    scale: 0.50;
+}
