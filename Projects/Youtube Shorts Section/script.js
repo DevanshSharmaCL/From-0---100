@@ -151,28 +151,35 @@ let allreel = document.querySelector('.all-reel')
 allreel.innerHTML = sum
 
 
-let likecount = document.querySelectorAll(".like i")
+let likeIcon = document.querySelectorAll(".like i")
+let likeCountElem = document.querySelectorAll('.like h6')
 
  
 
-likecount.forEach(function(heart,index){
-    heart.addEventListener("click", function(){
+likeIcon.forEach(function(heart,index){
+  heart.addEventListener("click", function(){
+    
+    
         if(reels[index].isLiked == true){
-          let newl = reels[index].isLiked = false
+          reels[index].isLiked = false
+          reels[index].likeCount--
           heart.classList.add("ri-heart-line")
           heart.classList.remove("ri-heart-fill")
           
-          console.log(newl)
-
+          
+          // console.log("-1")
+          
         }
         else if(reels[index].isLiked == false){
-          let newl = reels[index].isLiked = true
+          reels[index].isLiked = true
+          reels[index].likeCount++
           heart.classList.remove("ri-heart-line")
           heart.classList.add("ri-heart-fill")
 
-          console.log(newl)
-        }
-
+          // console.log("+1")
         
-      })
+        }
+        likeCountElem[index].innerHTML = reels[index].likeCount
+     })
 })
+
