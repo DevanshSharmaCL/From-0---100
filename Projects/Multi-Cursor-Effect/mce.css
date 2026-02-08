@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#3A0519;
+    color: #EF88AD;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+
+.col{
+    height: 19%;
+    width: 100%;
+    border: 1px solid #A53860;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: bottom;
+    position: absolute;
+    opacity: 0;
+    transition: linear 0.1s;
+    mix-blend-mode: difference;
+}

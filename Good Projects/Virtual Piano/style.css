@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body { 
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #2f1f1f;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stroke{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(190, 26, 59); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Stroke .keys{
+    background-color: red;
+    font-size: 30px;
+    margin:5px;
+    padding:35px;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    border: 2px solid black;
+}

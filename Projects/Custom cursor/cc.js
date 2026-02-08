@@ -1,8 +1,8 @@
-let main = document.querySelector('main')
-let img = document.querySelector('.cursor img')
+let main = document.querySelector(".main")
+let cursor = document.querySelector(".cursor")
 
-main.addEventListener('mousemove',function(details){
-    img.style.left = details.x + 'px'
-    img.style.top = details.y
-     + 'px'
+main.addEventListener('mousemove',function(mov){
+
+    cursor.style.left = mov.x + 'px'
+    cursor.style.top = mov.y + 'px'
 })

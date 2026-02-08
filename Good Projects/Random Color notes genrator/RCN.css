@@ -1,0 +1,40 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 14, 14);
+}
+
+button{
+    position: absolute;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: violet;
+    background-color:purple;
+    border: none;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: indigo;
+    color: white;
+}
+
+button:active{
+    scale: 0.85;
+    transition: ease-in;
+}
