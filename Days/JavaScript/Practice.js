@@ -860,23 +860,47 @@
 
 // classes Properties in js 
 
-class BedRoom{
-    constructor(){
-        this.bed = 1
-        this.material = "wood"
-        this.height = 8
-        this.widght = 3
-        this.isMattress = true
+// class BedRoom{
+//     constructor(){
+//         this.bed = 1
+//         this.material = "wood"
+//         this.height = 8
+//         this.widght = 3
+//         this.isMattress = true
+//     }
+
+//     assemble(){
+//         console.log("The bed has been assembled")
+//     }
+
+//     deassemble(){
+//         console.log("This bed is going to be deassbmle ")
+//     }
+// }
+
+// let br1 = new BedRoom 
+// br1.assemble()
+
+
+// kitab example
+
+class kitabe{
+    constructor(name , author , pages , price ){
+        this.name = name;
+        this.author = author;
+        this.pages = pages;
+        this.price = price;
     }
 
-    assemble(){
-        console.log("The bed has been assembled")
+    authorKaNaam(){
+        console.log(this.author)
     }
-
-    deassemble(){
-        console.log("This bed is going to be deassbmle ")
+    
+    BookKePane(){
+        console.log(this.pages)
     }
 }
 
-let br1 = new BedRoom 
-br1.assemble()
+let k1 = new kitabe("Rise Of Cyber", "cyber", 100, 3000)
+let k2 = new kitabe("Rise Of light", "light", 120, 4000)
+let k3 = new kitabe("Rise Of CL", "CL", 150, 5000)
