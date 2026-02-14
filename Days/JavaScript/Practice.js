@@ -884,23 +884,42 @@
 
 // kitab example
 
-class kitabe{
-    constructor(name , author , pages , price ){
-        this.name = name;
-        this.author = author;
-        this.pages = pages;
-        this.price = price;
-    }
+// class kitabe{
+//     constructor(name , author , pages , price ){
+//         this.name = name;
+//         this.author = author;
+//         this.pages = pages;
+//         this.price = price;
+//     }
 
-    authorKaNaam(){
-        console.log(this.author)
-    }
+//     authorKaNaam(){
+//         console.log(this.author)
+//     }
     
-    BookKePane(){
-        console.log(this.pages)
+//     BookKePane(){
+//         console.log(this.pages)
+//     }
+// }
+
+// let k1 = new kitabe("Rise Of Cyber", "cyber", 100, 3000)
+// let k2 = new kitabe("Rise Of light", "light", 120, 4000)
+// let k3 = new kitabe("Rise Of CL", "CL", 150, 5000)
+
+
+
+class sketch{
+    constructor(){
+        this.drawing = "Ben10"
+        this.color = "white / black"
     }
+    speak(){}
+    walk(){}
+    run(){}
+    // anything ourside the constructor is considered as prototype , means ,it wont have it own memeory instead it will be shared memory
 }
 
-let k1 = new kitabe("Rise Of Cyber", "cyber", 100, 3000)
-let k2 = new kitabe("Rise Of light", "light", 120, 4000)
-let k3 = new kitabe("Rise Of CL", "CL", 150, 5000)
+// sketch.prototype.speak = function(){}
+// sketch.prototype.walk = function(){}
+// sketch.prototype.run = function(){}
+
+let s = new sketch()
