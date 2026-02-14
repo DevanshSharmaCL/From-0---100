@@ -852,7 +852,31 @@
 
 // keydown event listener
 
-let body = document.body
-body.addEventListener('keydown',function(d){
-    console.log(d)
-})
+// let body = document.body
+// body.addEventListener('keydown',function(d){
+//     console.log(d)
+// })
+
+
+// classes Properties in js 
+
+class BedRoom{
+    constructor(){
+        this.bed = 1
+        this.material = "wood"
+        this.height = 8
+        this.widght = 3
+        this.isMattress = true
+    }
+
+    assemble(){
+        console.log("The bed has been assembled")
+    }
+
+    deassemble(){
+        console.log("This bed is going to be deassbmle ")
+    }
+}
+
+let br1 = new BedRoom 
+br1.assemble()
