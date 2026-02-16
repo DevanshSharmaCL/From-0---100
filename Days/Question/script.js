@@ -1,14 +1,12 @@
-class car {
-    constructor(brand , speed){
-        this.brand = brand,
-        this.speed = speed
+ class student {
+    constructor(name , rollnumber){
+        this.name = name
+        this.rollnumber = rollnumber
     }
-    config(){
-        return this.brand + " - " + this.speed
+    introduce(){
+        console.log(`this student name is ${this.name} and the rollnumber is ${this.rollnumber}`)
     }
-}
+ }
 
-let car1 = new car("BMW",250)
-let car2 = new car("Porche",310)
-let car3 = new car("Toyota",180)
-
+ let setuden1 = new student("Cyber", 26557349)
+ setuden1.introduce()
