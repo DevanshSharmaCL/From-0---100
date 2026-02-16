@@ -907,19 +907,50 @@
 
 
 
-class sketch{
+// class sketch{
+//     constructor(){
+//         this.drawing = "Ben10"
+//         this.color = "white / black"
+//     }
+//     speak(){}
+//     walk(){}
+//     run(){}
+//     // anything ourside the constructor is considered as prototype , means ,it wont have it own memeory instead it will be shared memory
+// }
+
+// // sketch.prototype.speak = function(){}
+// // sketch.prototype.walk = function(){}
+// // sketch.prototype.run = function(){}
+
+// let s = new sketch()
+
+
+
+// private elementws
+
+// underscore tells other programer that this element is private
+// even tho we can still change it 
+
+// so to fight this problem , we have gatekeepers 
+
+class Animal{
     constructor(){
-        this.drawing = "Ben10"
-        this.color = "white / black"
+        this._age = 12
     }
-    speak(){}
-    walk(){}
-    run(){}
-    // anything ourside the constructor is considered as prototype , means ,it wont have it own memeory instead it will be shared memory
+    set ageChange(val){
+        if(val<0){
+            console.error("not possible")
+            return
+        }
+        this._age = val
+    }
+
+    get privateAge (){
+        return this._age
+    }
 }
 
-// sketch.prototype.speak = function(){}
-// sketch.prototype.walk = function(){}
-// sketch.prototype.run = function(){}
+let a1 = new Animal()
+a1.ageChange = -1
 
-let s = new sketch()
+console.log(a1.privateAge)
