@@ -1,11 +1,6 @@
-let obj = {
-    sayName:function(){
-        console.log("normal")
-    },
-    sayArrorName:()=>{
-        console.log("arrow")
-    }
+function user(name,age){
+    this.name = name,
+    this.age = age
 }
 
-obj.sayName()
-obj.sayArrorName()
+let user1 = new user("cyber", 20)
