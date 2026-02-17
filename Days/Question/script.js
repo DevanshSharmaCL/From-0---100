@@ -6,3 +6,6 @@ let obj = {
         console.log("arrow")
     }
 }
+
+obj.sayName()
+obj.sayArrorName()
