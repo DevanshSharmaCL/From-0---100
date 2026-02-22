@@ -1,15 +1,19 @@
-function abc(fn){
-    fn(function(fn3){
-        fn3(function(fn5){
-            fn5(console.log("sbdjaghd"))
+function admitKaAddress(address,cb){
+    console.log("fecting datat")
+    setTimeout(()=>{
+        console.log("here is ur data")
+    },2500)
+    setTimeout(()=>{
+        cb({
+            house:12,
+            lan:2,
+            lon:3
         })
-    })
+
+    },3000)
+
 }
 
- abc(function(fn2){
-    fn2(function(fn4){
-        fn4(function(){
-
-        })
-    })
- })
+admitKaAddress("h-1",function(details){
+    console.log(details)
+})
