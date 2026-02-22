@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <div class="music-card">
+            <div class="upper">
+
+                <div class="musician">
+                    <img src="https://i.pinimg.com/1200x/31/11/74/3111741149ce1ffaf5c0bb6209c9890a.jpg" alt="">
+                    <div class="info">
+                        <h3>Name of song</h3>
+                        <p>name of artist
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="share">
+                    <i class="ri-share-line"></i>
+                </div>
+
+                <div class="like"><i class="ri-heart-3-line"></i></div>
+
+            </div>
+
+            <img id="musicImg" src="https://i.pinimg.com/736x/58/1c/6e/581c6e1169ff7cd05e32f16717e117ba.jpg" alt="">
+
+
+
+            <div class="lower">
+                <div class="progress-wrapper">
+                    <span id="current">0:00</span>
+
+                    <input type="range" id="progress" value="0" min="0" step="1">
+
+                    <span id="duration">0:00</span>
+                </div>
+
+                <audio id="song">
+                    <source src="Chaar Diwaari x Sanjith Hegde - Banda Kaam Ka (Official Video) _ Parvana EP _ Def Jam India.mp4" type="audio/mpeg">
+                </audio>
+
+
+                <div class="controls">
+                    <div><i class="ri-skip-back-fill"></i></div>
+                    <div><i class="ri-play-large-fill"></i></div>
+                    <div><i class="ri-skip-forward-fill"></i></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
