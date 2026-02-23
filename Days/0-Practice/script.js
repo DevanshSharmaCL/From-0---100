@@ -1,19 +1,12 @@
-function admitKaAddress(address,cb){
-    console.log("fecting datat")
-    setTimeout(()=>{
-        console.log("here is ur data")
-    },2500)
-    setTimeout(()=>{
-        cb({
-            house:12,
-            lan:2,
-            lon:3
-        })
+function afterDilay(time , cb){
+    setTimeout(function(){
+        cb(
+            console.log("callback executed")
+        )
 
-    },3000)
-
+    },time)
 }
 
-admitKaAddress("h-1",function(details){
-    console.log(details)
+afterDilay(2000, function(){
+
 })
