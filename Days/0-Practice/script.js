@@ -4,8 +4,13 @@ let promise = new Promise(function(res,rej){
         else rej("rejected with " + rn)
 })
 
-promise.then(function(val){
-    console.log(val)
-}).catch(function(val){
-    console.log(val)
-})
+async function waiting(){
+    try{
+        let val = await promise;
+        console.log(promise);
+    } catch (err){
+        console.log(err)
+    }
+}
+
+waiting()
