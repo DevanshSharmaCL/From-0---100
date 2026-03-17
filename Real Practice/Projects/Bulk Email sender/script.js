@@ -12,7 +12,7 @@ function sendEmail(email) {
 
     setTimeout(() => {
       let probability = Math.floor(Math.random() * 10);
-      if ((probability) > 5) resolve(console.log("email sent succesfully", probability));
+      if (probability > 5) resolve(console.log("email sent succesfully", probability));
       else reject(console.log("email failed", probability));
     }, time * 1000);
     console.log(time)
@@ -23,3 +23,10 @@ function sendEmail(email) {
 
 
 sendEmail("cyberlight@101")
+// now agar resolve chala toh then state chalega
+.then(function(data){
+    console.log(data)
+})
+.catch(function(err){
+    console.log(err)
+})
