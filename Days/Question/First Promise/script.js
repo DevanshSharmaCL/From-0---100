@@ -24,3 +24,6 @@ checkUserAge()
 .catch((err)=>{
     console.log(err)
 })
+
+// then represent resolve
+// catch represent reject
