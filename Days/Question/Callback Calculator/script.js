@@ -1,4 +1,5 @@
- function add (a,b){
+//callback is calling function into another fucntion
+function add (a,b){
     return a+b
  }
 
