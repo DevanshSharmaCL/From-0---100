@@ -19,11 +19,8 @@ function sendEmail(email) {
   });
 }
 
-// now settimout can do 2 things from inside , agar resolve chala toh uska then state chalega , agar reject chala toh uska catch state chalega
-
 
 sendEmail("cyberlight@101")
-// now agar resolve chala toh then state chalega
 .then(function(data){
     console.log(data)
 })
