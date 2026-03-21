@@ -1,4 +1,4 @@
-let arr = [10,20,30];
+let arr = [5,10,15,20,25,30]
+let [a,,,d] = arr
 
-let [a,b,c] = arr
-console.log(a,b,c)
+console.log(a,d)
