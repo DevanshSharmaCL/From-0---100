@@ -1,8 +1,11 @@
 let user = {
   name: "Cyber",
-  age: 20
+  address: {
+    city: "Delhi",
+    pincode: 110001
+  }
 };
 
-let {name:username,age:userage} = user
+let {address{city,pincode}} = user
 
-console.log(username,userage)
+console.log(address.city,address.pincode)
