@@ -1,5 +1,5 @@
-let a = [1, 2];
-let b = [3, 4];
+let user = { name: "Cyber", age: 20 };
 
-let arr2 = [...a,...b]
-console.log(arr2)
+let user2 = {...user}
+
+console.log(user2)
