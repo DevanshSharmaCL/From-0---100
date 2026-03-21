@@ -6,6 +6,6 @@ let user = {
   }
 };
 
-let {address{city,pincode}} = user
+let {address} = user
 
 console.log(address.city,address.pincode)
