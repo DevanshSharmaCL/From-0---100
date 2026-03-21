@@ -1,5 +1,8 @@
-let arr = [5,10,15,20,25,30]
+let user = {
+  name: "Cyber",
+  age: 20
+};
 
-let [a,...b] = arr
+let {name:username,age:userage} = user
 
-console.log(a,b)
+console.log(username,userage)
