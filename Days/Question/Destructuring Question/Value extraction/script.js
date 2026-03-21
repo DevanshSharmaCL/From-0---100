@@ -1,4 +1,4 @@
-let user = { name: "Cyber", age: 20 };
+let arr = [10, 20, 30, 40];
 
-let user2 = {...user , age:25}
-console.log(user2)
+let {a,...b} = {arr}
+console.log(a)
