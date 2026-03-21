@@ -1,11 +1,5 @@
-let user = {
-  name: "Cyber",
-  address: {
-    city: "Delhi",
-    pincode: 110001
-  }
-};
+let a = [1, 2];
+let b = [3, 4];
 
-let {address} = user
-
-console.log(address.city,address.pincode)
+let arr2 = [...a,...b]
+console.log(arr2)
