@@ -1,7 +1,4 @@
-console.log(React)
-console.log(ReactDOM)
-//If both of these print something , then its working 
+let h1= document.createElement('h1')
+h1.innerHTML= "Hello From ReactJS"
 
-//the use of 
-// React - UI ke liye 
-// ReactDOM - React and dom 
+document.body.appendChild(h1)
