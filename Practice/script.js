@@ -1,7 +1,17 @@
-    let h1 = React.createElement("h1", null, "this is bssss");
+import React from 'react'
+import Box from './box.js'
+import Circle from './circle.js'
 
-    let container = document.getElementById("root");
+const Root = ReactDOM.createRoot(document.querySelector("#root"))
+// way 1 
+// Root.render(
+//     React.createElement('div',null,
+//         React.createElement(Box),
+//         React.createElement(Circle)
+//     )
+// )
 
-    let root = ReactDOM.createRoot(container);
+// way 2
+const parent = React.createElement('div',null,[Box(),Circle()])
 
-    root.render(h1);
+Root.render(parent())
